@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>Project Details | MERN.JS Super Simple Boilerplate</title>
+  <title>Dashboard | MERN.JS Super Simple Boilerplate</title>
 
   <!-- GOOGLE FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500|Poppins:400,500,600,700|Roboto:400,500" rel="stylesheet"/>
@@ -73,7 +73,8 @@
                     </a>
                   </li>
 
-                  <!-- <li  class="has-sub active expand" >
+                  <!-- 
+                  <li  class="has-sub active expand" >
                     <a class="sidenav-item-link" href="javascript:void(0)" data-toggle="collapse" data-target="#dashboard"
                       aria-expanded="false" aria-controls="dashboard">
                       <i class="mdi mdi-view-dashboard-outline"></i>
@@ -150,16 +151,15 @@
 
         <div class="content-wrapper">
           <div class="content">							<div class="breadcrumb-wrapper">
-								<h1>Projects Details</h1>
+								<h1>Projects</h1>
 								
         <nav aria-label="breadcrumb">
           <ol class="breadcrumb p-0">
             <li class="breadcrumb-item">
-              <a href="/projects">
+              <a href="/">
                 Dashboard
               </a>
             </li>
-            <li class="breadcrumb-item" aria-current="page">Project Details</li>
           </ol>
         </nav>
 
@@ -169,118 +169,36 @@
 							<div class="row">
 								<div class="col-12">
                   <!-- Recent Order Table -->
-                  <div class="card card-table-border-none">
+                  <div class="card card-table-border-none" id="recent-orders">
                     <div class="card-header card-header-border-bottom">
-                      <h2>Project Details</h2>
+                      <h2>All Projects</h2>
                       
                     </div>
                     <div class="card-body pt-0 pb-5">
                       <table class="table card-table table-responsive table-responsive-large" style="width:100%">
+                        <thead>
+                          <tr>
+                            <th class="d-none d-md-table-cell">SN</th>
+                            <th>Project Name</th>
+                            <th class="d-none d-md-table-cell">Project Type</th>
+                            <th class="d-none d-md-table-cell">OS Username</th>
+                            <th class="d-none d-md-table-cell">OS Hostname</th>
+                            <th class="d-none d-md-table-cell">Date</th>
+                          </tr>
+                        </thead>
                         <tbody>
+                          <% data.forEach(function(item, index){ %>
                           <tr>
-                            <td>project_name</td>
-                            <td><%= data.project_name %></td>
+                            <td class="d-none d-md-table-cell"><%= index+1 %></td>
+                            <td>
+                              <a class="text-dark" href="project-details?project_id=<%= item._id %>"> <%= item.project_name %></a>
+                            </td>
+                            <td class="d-none d-md-table-cell"><%= item.project_type %></td>
+                            <td class="d-none d-md-table-cell"><%= item.os_username %></td>
+                            <td class="d-none d-md-table-cell"><%= item.os_hostname %></td>
+                            <td class="d-none d-md-table-cell"><%= moment(item.created_at).format('DD-MM-YYYY') %></td>
                           </tr>
-                          <tr>
-                            <td>email</td>
-                            <td><%= data.email %></td>
-                          </tr>
-                          <tr>
-                            <td>project_path</td>
-                            <td><%= data.project_path %></td>
-                          </tr>
-                          <tr>
-                            <td>project_type</td>
-                            <td><%= data.project_type %></td>
-                          </tr>
-                           
-                          <%if (data.location) {%>
-                          <tr>
-                            <% let location = JSON.parse(data.location) %>
-                            <td>country</td>
-                            <td><%= location.country %></td>
-                          </tr>
-                          <tr>
-                            <td>region</td>
-                            <td><%= location.region %></td>
-                          </tr>
-                          <tr>
-                            <td>city</td>
-                            <td><%= location.city %></td>
-                          </tr>
-                          <tr>
-                            <td>postal</td>
-                            <td><%= location.postal %></td>
-                          </tr>
-                          <tr>
-                            <td>ip</td>
-                            <td><%= location.ip %></td>
-                          </tr>
-                          <tr>
-                            <td>latitude</td>
-                            <td><%= location.latitude %></td>
-                          </tr>
-                          <tr>
-                            <td>longitude</td>
-                            <td><%= location.longitude %></td>
-                          </tr>
-                          <tr>
-                            <td>timezone</td>
-                            <td><%= location.timezone %></td>
-                          </tr>
-                          <%}%>
-                          <tr>
-                            <td>node_version</td>
-                            <td><%= data.node_version %></td>
-                          </tr>
-                          <tr>
-                            <td>npm_version</td>
-                            <td><%= data.npm_version %></td>
-                          </tr>
-                          <tr>
-                            <td>cli_version</td>
-                            <td><%= data.cli_version %></td>
-                          </tr>
-                          <tr>
-                            <td>os_username</td>
-                            <td><%= data.os_username %></td>
-                          </tr>
-                          <tr>
-                            <td>os_type</td>
-                            <td><%= data.os_type %></td>
-                          </tr>
-                          <tr>
-                            <td>os_release</td>
-                            <td><%= data.os_release %></td>
-                          </tr>
-                          <tr>
-                            <td>os_platform</td>
-                            <td><%= data.os_platform %></td>
-                          </tr>
-                          <tr>
-                            <td>os_hostname</td>
-                            <td><%= data.os_hostname %></td>
-                          </tr>
-                          <tr>
-                            <td>os_arch</td>
-                            <td><%= data.os_arch %></td>
-                          </tr>
-                          <tr>
-                            <td>os_cpu_model</td>
-                            <td><%= data.os_cpu_model %></td>
-                          </tr>
-                          <tr>
-                            <td>total_memory</td>
-                            <td><%= data.total_memory/1024/1024/1024 %> GB</td>
-                          </tr>
-                          <tr>
-                            <td>created_at</td>
-                            <td><%= moment(data.created_at).format('DD-MM-YYYY') %></td>
-                          </tr>
-                          <tr>
-                            <td>updated_at</td>
-                            <td><%= moment(data.updated_at).format('DD-MM-YYYY') %></td>
-                          </tr>
+                          <% }) %>
 
                         </tbody>
                       </table>

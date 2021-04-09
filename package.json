@@ -4,7 +4,7 @@
   "private": true,
   "main": "server.js",
   "scripts": {
-    "node": "nodemon server.js",
+    "dev": "nodemon server.js",
     "start": "node server.js",
     "forever-start": "forever start server.js",
     "forever-restart": "forever restart server.js",
