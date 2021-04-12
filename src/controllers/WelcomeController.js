@@ -1,4 +1,5 @@
 const InitCommand	= require('../models/InitCommand')
+const iplocation    = require("iplocation").default;
 
 class WelcomeController {
 
@@ -12,7 +13,9 @@ class WelcomeController {
     }
 
     async details(req, res){
-    	const data = await InitCommand.findOne({_id: req.query.project_id})
+    	let data = await InitCommand.findOne({_id: req.query.project_id})
+        const location  = await iplocation(data.ip_address)
+        data.location = JSON.stringify(location)
         view(res, 'pages/project-details', 'Project Details', 'Get Project Details Successfully', data)
     }
 

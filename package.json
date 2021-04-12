@@ -17,6 +17,7 @@
     "express": "^4.17.1",
     "faker": "^5.1.0",
     "fs-extra": "^9.0.1",
+    "iplocation": "^6.1.0",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "mongoose": "^5.10.7",
