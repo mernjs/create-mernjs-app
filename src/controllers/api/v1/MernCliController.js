@@ -87,11 +87,11 @@ class MernCliController {
                     <div>
                         <h4>Links</h4>
                         <p>
-                            <a class="nav-link" href="https://mernjs.org/"><b>Documentation</b></a>
-                            <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a>
-                            <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a>
-                            <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a>
-                            <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a>
+                            <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
+                            <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
+                            <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
+                            <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a> || 
+                            <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
                             <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                         </p>
                     </div>
