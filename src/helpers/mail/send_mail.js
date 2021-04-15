@@ -6,8 +6,8 @@ module.exports = (data) => {
             let mailTransporter = nodemailer.createTransport({
                 host: process.env.MAIL_HOST,
                 port: process.env.MAIL_PORT,
-                secure: process.env.MAIL_SECURE === 'false' ? false : true,
-                requireTLS: process.env.MAIL_TLS === 'false' ? false : true,
+                secure: false,
+                requireTLS: true,
                 auth: {
                     user: process.env.MAIL_USERNAME,
                     pass: process.env.MAIL_PASSWORD 
