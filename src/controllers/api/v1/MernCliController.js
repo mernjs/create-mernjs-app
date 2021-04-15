@@ -83,6 +83,18 @@ class MernCliController {
                           Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.
                         </p>
                     </div>
+
+                    <div>
+                        <h4>Links</h4>
+                        <p>
+                            <a class="nav-link" href="https://mernjs.org/"><b>Documentation</b></a>
+                            <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a>
+                            <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a>
+                            <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a>
+                            <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a>
+                            <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
+                        </p>
+                    </div>
                     <div style="margin-top: 50px; margin-bottom: 50px;">
                     <p>Regards</p>
                     <p>MernJs Community</p>
