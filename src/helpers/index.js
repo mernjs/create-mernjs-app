@@ -1,4 +1,4 @@
-require('../database/dbconfig/DB_config');
+require('dotenv').config()
 global.express 	= require('express');
 global.Route 	= express.Router();
 global.chalk    = require('chalk');

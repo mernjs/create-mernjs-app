@@ -1,4 +1,4 @@
-require('./Dotenv')(process.env.NODE_ENV)
+require('dotenv').config()
 
 let ENV = {}
 ENV.MONGO_URI=process.env.MONGO_URI

@@ -13,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "ejs": "^3.1.5",
     "express": "^4.17.1",
     "faker": "^5.1.0",
@@ -21,7 +22,8 @@
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "mongoose": "^5.10.7",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"
