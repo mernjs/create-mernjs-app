@@ -2,8 +2,15 @@ const InitCommand   = require('../../../models/InitCommand')
 const nodemailer    = require('nodemailer');
 const iplocation    = require("iplocation").default;
 
+const capitalize = (s) => {
+    if (typeof s !== 'string') return ''
+    return s.charAt(0).toUpperCase() + s.slice(1)
+}
+
 class MernCliController {
     
+    
+
     init(req, res){
         try{
             new InitCommand({...req.body, created_at: new Date()}).save()
@@ -13,7 +20,7 @@ class MernCliController {
                     email_ids: req.body.email,
                     subject: `Successfully created ${data.project_name} app`,
                     html: `<div style="width: 50%; margin-left: auto; margin-right: auto;">
-                    <p>Hi ${data.os_username}</p>
+                    <p>Hi ${capitalize(data.os_username)}</p>
                     <p>Successfully created to the following details.</p>   
                     <table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
                       <tr>
@@ -79,9 +86,7 @@ class MernCliController {
                             <a target="_blank" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists">Youtube</a>
                             for updates, news, and information on the MERN.JS stack.
                         </p>
-                        <p>
-                          Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.
-                        </p>
+                        <p>Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.</p>
                     </div>
 
                     <div>
@@ -122,54 +127,59 @@ class MernCliController {
         }
     }
 
+
     async sendMail(req, res){
         try {
             const data = await InitCommand.find()
-            data.map((item, index) => {
-                console.log('data', item.email)
+            const promises = [];
+            data.map( async (item, index) => {
+                console.log('item.email', item.email)
+                let mailResponse = null
                 if(item.email !== null && item.email !== undefined){
-                    sendMail({
+                    mailResponse = await sendMail({
                         email_ids: req.body.email,
-                        subject: 'Successfully published create-mernjs-app@1.0.5',
+                        subject: `New Update Available of create-mernjs-app@${req.body.version}`,
                         html: `<div style="width: 50%; margin-left: auto; margin-right: auto;">
-                        <p>Hi ${item.os_username}</p>
-                        <p>A new version of the package create-mernjs-app (1.0.5) was published at April 14, 2021.</p>   
+                        <p>Hi ${capitalize(item.os_username)}</p>
+                        <p>A new version of the package create-mernjs-app (${req.body.version}) was published at ${req.body.date}.</p>   
                         
-                        <div>
-                            <h4>Support</h4>
-                            <p>
-                                If you have any issues or bugs, report in our <a target="_blank" href="https://github.com/mernjs/create-mernjs-app/issues">Github.</a>
-                            </p>
+                        <div style="margin-top: 50px;">
                             <p>Please email us, If you have any query or security concerns. you can reply to this message or <a target="_blank" href="mailto:>mernjscommunity@gmail.com">mernjscommunity@gmail.com</a>.</p>
+                            <p>If you have any issues or bugs, report in our <a target="_blank" href="https://github.com/mernjs/create-mernjs-app/issues">Github.</a></p>
                         </div>
 
-                        <div>
-                            <h4>Community</h4>
+                        <div style="margin-top: 50px;">
+                            <p>Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.</p>
+                        </div>
+                       
+                        <div style="margin-top: 50px;">
                             <p>
-                                Follow us on 
-                                <a target="_blank" href="https://www.facebook.com/">Facebook</a>, 
-                                <a target="_blank" href="https://twitter.com/mernjs">Twitter</a>, 
-                                <a target="_blank" href="https://www.linkedin.com/in/mernjs-community-269551191/">LinkedIn</a> and 
-                                <a target="_blank" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists">Youtube</a>
-                                for updates, news, and information on the MERN.JS stack.
-                            </p>
-                            <p>
-                              Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.
+                                <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
+                                <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
+                                <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
+                                <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a> || 
+                                <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
+                                <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                             </p>
                         </div>
+                       
                         <div style="margin-top: 50px; margin-bottom: 50px;">
                         <p>Regards</p>
                         <p>MernJs Community</p>
                         </div>
                         </div>`,
-                    }).then(success => {
-                        console.log('success', success)
-                    }).catch(error => {
-                        console.log('catch', error.message)
                     })
                 }
+                promises.push(mailResponse);
             })
-            return apiResponse(res, 200, 'Mail Sent Successfully', success)
+
+            Promise.all(promises)
+            .then(function(values){
+                return apiResponse(res, 200, 'Mail Sent Successfully', values)
+            }).catch(error => {
+                return apiResponse(res, 500, 'Somthing went wrong', error.message)
+            });
+            
         } catch (error) {
             return apiResponse(res, 500, error.message)
         }
