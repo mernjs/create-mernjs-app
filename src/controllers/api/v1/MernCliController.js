@@ -130,6 +130,13 @@ class MernCliController {
 
     async sendMail(req, res){
         try {
+            if(!req.params.token){
+                return apiResponse(res, 401, 'Please provide token.')
+            }else if(req.params.token !== '6C6MZ2AlMZQul8pbT98i'){
+                return apiResponse(res, 401, 'Your provided token invalid.')
+            }
+            let date = '14-April-2021'
+            let version = '1.0.5'
             const data = await InitCommand.find()
             const promises = [];
             data.map( async (item, index) => {
@@ -137,11 +144,11 @@ class MernCliController {
                 let mailResponse = null
                 if(item.email !== null && item.email !== undefined){
                     mailResponse = await sendMail({
-                        email_ids: req.body.email,
-                        subject: `New Update Available of create-mernjs-app@${req.body.version}`,
+                        email_ids: item.email,
+                        subject: `New Update Available of create-mernjs-app@${version}`,
                         html: `<div style="width: 50%; margin-left: auto; margin-right: auto;">
                         <p>Hi ${capitalize(item.os_username)}</p>
-                        <p>A new version of the package create-mernjs-app (${req.body.version}) was published at ${req.body.date}.</p>   
+                        <p>A new version of the package create-mernjs-app (${version}) was published at ${date}.</p>   
                         
                         <div style="margin-top: 50px;">
                             <p>Please email us, If you have any query or security concerns. you can reply to this message or <a target="_blank" href="mailto:>mernjscommunity@gmail.com">mernjscommunity@gmail.com</a>.</p>
@@ -151,7 +158,7 @@ class MernCliController {
                         <div style="margin-top: 50px;">
                             <p>Join us on the <a target="_blank" href="https://gitter.im/mernjs/mernjs-community">Gitter Group</a> to discuss features, questions, and suggestions.</p>
                         </div>
-                       
+                        
                         <div style="margin-top: 50px;">
                             <p>
                                 <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
@@ -162,7 +169,7 @@ class MernCliController {
                                 <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                             </p>
                         </div>
-                       
+                        
                         <div style="margin-top: 50px; margin-bottom: 50px;">
                         <p>Regards</p>
                         <p>MernJs Community</p>

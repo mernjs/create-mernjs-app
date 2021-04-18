@@ -19,8 +19,8 @@ Route.route('/api/v1/version')
 	.get(MernCliController.version)
 	.all(send405);
 
-Route.route('/api/v1/send-mail')
-	.post(MernCliController.sendMail)
+Route.route('/api/v1/broadcast/:token')
+	.get(MernCliController.sendMail)
 	.all(send405);
 
 module.exports = Route
