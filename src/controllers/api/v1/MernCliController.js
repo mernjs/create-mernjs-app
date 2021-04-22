@@ -95,7 +95,7 @@ class MernCliController {
                             <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
-                            <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a> || 
+                            <a class="nav-link" href="https://mernjs.org/sample-apps"><b>Sample Apps</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
                             <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                         </p>
@@ -135,8 +135,8 @@ class MernCliController {
             }else if(req.params.token !== '6C6MZ2AlMZQul8pbT98i'){
                 return apiResponse(res, 401, 'Your provided token invalid.')
             }
-            let date = '14-April-2021'
-            let version = '1.0.5'
+            let date = new Date()
+            let version = '1.0.6'
             const data = await InitCommand.find()
             const promises = [];
             data.map( async (item, index) => {
@@ -164,7 +164,7 @@ class MernCliController {
                                 <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
-                                <a class="nav-link" href="https://mernjs.org/live-demo"><b>Live Demo</b></a> || 
+                                <a class="nav-link" href="https://mernjs.org/sample-apps"><b>Sample Apps</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
                                 <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                             </p>
