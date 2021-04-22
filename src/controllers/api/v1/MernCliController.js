@@ -121,7 +121,7 @@ class MernCliController {
 
     version(req, res){
         try {
-            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: '1.0.4'})
+            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: '1.0.6'})
         } catch (error) {
             return apiResponse(res, 500, error.message)
         }
