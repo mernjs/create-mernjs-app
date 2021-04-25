@@ -121,7 +121,7 @@ class MernCliController {
 
     version(req, res){
         try {
-            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: '1.0.6'})
+            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: '1.0.7'})
         } catch (error) {
             return apiResponse(res, 500, error.message)
         }
@@ -136,7 +136,7 @@ class MernCliController {
                 return apiResponse(res, 401, 'Your provided token invalid.')
             }
             let date = new Date()
-            let version = '1.0.6'
+            let version = '1.0.7'
             const data = await InitCommand.find()
             const promises = [];
             data.map( async (item, index) => {
