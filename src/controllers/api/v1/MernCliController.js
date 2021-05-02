@@ -95,7 +95,7 @@ class MernCliController {
                             <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
-                            <a class="nav-link" href="https://mernjs.org/sample-apps"><b>Sample Apps</b></a> || 
+                            <a class="nav-link" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists"><b>Youtube</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
                             <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                         </p>
@@ -164,7 +164,7 @@ class MernCliController {
                                 <a class="nav-link" href="https://mernjs.org/"><b>Website</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/installation"><b>Documentation</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
-                                <a class="nav-link" href="https://mernjs.org/sample-apps"><b>Sample Apps</b></a> || 
+                                <a class="nav-link" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists"><b>Youtube</b></a> || 
                                 <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
                                 <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
                             </p>
