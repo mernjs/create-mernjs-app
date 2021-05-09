@@ -181,9 +181,9 @@
                             <th class="d-none d-md-table-cell">SN</th>
                             <th>Project Name</th>
                             <th class="d-none d-md-table-cell">Project Type</th>
-                            <th class="d-none d-md-table-cell">OS Username</th>
-                            <th class="d-none d-md-table-cell">OS Hostname</th>
-                            <th class="d-none d-md-table-cell">Date</th>
+                            <th class="d-none d-md-table-cell">Username</th>
+                            <th class="d-none d-md-table-cell">Email</th>
+                            <th>Date</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -193,9 +193,9 @@
                             <td>
                               <a class="text-dark" href="project-details?project_id=<%= item._id %>"> <%= item.project_name %></a>
                             </td>
-                            <td class="d-none d-md-table-cell"><%= item.project_type %></td>
+                            <td width="250px" class="d-none d-md-table-cell"><%= item.project_type %></td>
                             <td class="d-none d-md-table-cell"><%= item.os_username %></td>
-                            <td class="d-none d-md-table-cell"><%= item.os_hostname %></td>
+                            <td class="d-none d-md-table-cell"><%= item.email %></td>
                             <td class="d-none d-md-table-cell"><%= moment(item.created_at).format('DD-MM-YYYY') %></td>
                           </tr>
                           <% }) %>

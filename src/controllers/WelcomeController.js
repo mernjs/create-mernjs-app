@@ -8,7 +8,7 @@ class WelcomeController {
     }
 
     async projects(req, res){
-        const data = await InitCommand.find()
+        const data = await InitCommand.find().sort({_id: 'desc'}).exec()
         view(res, 'pages/projects', 'Projects', 'Get All Projects Successfully', data)
     }
 
