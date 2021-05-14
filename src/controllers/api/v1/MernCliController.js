@@ -1,7 +1,7 @@
 const InitCommand   = require('../../../models/InitCommand')
-const nodemailer    = require('nodemailer');
 const iplocation    = require("iplocation").default;
 const _             = require('lodash')
+const pckJson   = require('../../../../package.json')
 
 const capitalize = (s) => {
     if (typeof s !== 'string') return ''
@@ -122,7 +122,7 @@ class MernCliController {
 
     version(req, res){
         try {
-            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: '1.1.0'})
+            return apiResponse(res, 200, 'Get Current CLI Version Successfully.', {cli_version: pckJson.version})
         } catch (error) {
             return apiResponse(res, 500, error.message)
         }
@@ -140,7 +140,7 @@ class MernCliController {
 
             let date = new Date()
 
-            let version = '1.1.0'
+            let version = pckJson.version
 
             const data = await InitCommand.find()
 
