@@ -21,15 +21,11 @@ class MernCliController {
                     email_ids: req.body.email,
                     subject: `Successfully created ${data.project_name} app`,
                     html: `<div style="width: 50%; margin-left: auto; margin-right: auto;">
-                    <p>Hi ${capitalize(data.os_username)}</p>
+                    <p>Hi ${capitalize(req.body.email.split('@')[0])}</p>
                     <p>Successfully created to the following details.</p>   
                     <table style="font-family: arial, sans-serif; border-collapse: collapse; width: 100%; margin-left: auto; margin-right: auto;">
                       <tr>
                         <th colspan="2" style="border: 1px solid #dddddd; text-align: center; padding: 8px;">Project Details</th>
-                      </tr>
-                      <tr>
-                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">App ID</td>
-                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.app_id}</td>
                       </tr>
                       <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">App Name</td>
@@ -38,6 +34,10 @@ class MernCliController {
                       <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">App Type</td>
                         <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.project_type.split('-')[0]}</td>
+                      </tr>
+                      <tr>
+                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Email ID</td>
+                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${req.body.email}</td>
                       </tr>
                       <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Node Version</td>
@@ -50,18 +50,6 @@ class MernCliController {
                       <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">MernJs Version</td>
                         <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.cli_version}</td>
-                      </tr>
-                      <tr>
-                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Country</td>
-                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${location.country}</td>
-                      </tr>
-                      <tr>
-                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Region</td>
-                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${location.region}</td>
-                      </tr>
-                      <tr>
-                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">OS Type</td>
-                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.os_type}</td>
                       </tr>
                       <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Date</td>
@@ -81,7 +69,6 @@ class MernCliController {
                         <h4>Community</h4>
                         <p>
                             Follow us on 
-                            <a target="_blank" href="https://www.facebook.com/">Facebook</a>, 
                             <a target="_blank" href="https://twitter.com/mernjs">Twitter</a>, 
                             <a target="_blank" href="https://www.linkedin.com/in/mernjs-community-269551191/">LinkedIn</a> and 
                             <a target="_blank" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists">Youtube</a>
@@ -98,7 +85,7 @@ class MernCliController {
                             <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
                             <a class="nav-link" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists"><b>Youtube</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
-                            <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
+                            <a class="nav-link" href="https://mernjs-code-snippets.herokuapp.com"><b>Code Snippets</b></a>
                         </p>
                     </div>
                     <div style="margin-top: 50px; margin-bottom: 50px;">
@@ -111,7 +98,7 @@ class MernCliController {
                 }).catch(error => {
                     console.log('catch', error.message)
                 })
-                return apiResponse(res, 200, `Successfully created ${data.project_name} app`, data)
+                return apiResponse(res, 200, `Successfully created ${data.project_name} app`, [])
             }).catch(error => {
                 return apiResponse(res, 500, error.message)
             })
@@ -164,7 +151,7 @@ class MernCliController {
                     email_ids: item.email,
                     subject: `New Update Available of create-mernjs-app@${version}`,
                     html: `<div style="width: 50%; margin-left: auto; margin-right: auto;">
-                    <p>Hi ${capitalize(item.os_username)}</p>
+                    <p>Hi ${capitalize(item.email.split('@')[0])}</p>
                     <p>A new version of the package create-mernjs-app (${version}) was published at ${date}.</p>   
                     
                     <div style="margin-top: 50px;">
@@ -183,7 +170,7 @@ class MernCliController {
                             <a class="nav-link" href="https://mernjs.org/versions"><b>Changelog</b></a> || 
                             <a class="nav-link" href="https://www.youtube.com/channel/UCAcmuHoa3sEN_KuwFYk6xMw/playlists"><b>Youtube</b></a> || 
                             <a class="nav-link" href="https://mernjs.org/community"><b>Community</b></a> || 
-                            <a class="nav-link" href="https://mernjs-blog.herokuapp.com"><b>Blog</b></a>
+                            <a class="nav-link" href="https://mernjs-code-snippets.herokuapp.com"><b>Code Snippets</b></a>
                         </p>
                     </div>
                     
