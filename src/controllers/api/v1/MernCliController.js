@@ -36,10 +36,6 @@ class MernCliController {
                         <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.project_type.split('-')[0]}</td>
                       </tr>
                       <tr>
-                        <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Email ID</td>
-                        <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${req.body.email}</td>
-                      </tr>
-                      <tr>
                         <td style="width: 30%; font-weight: bold; border: 1px solid #dddddd; text-align: left; padding: 8px;">Node Version</td>
                         <td style="border: 1px solid #dddddd; text-align: left; padding: 8px;">${data.node_version}</td>
                       </tr>
