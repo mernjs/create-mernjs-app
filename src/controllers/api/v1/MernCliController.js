@@ -16,7 +16,6 @@ class MernCliController {
         try{
             new InitCommand({...req.body, created_at: new Date()}).save()
             .then(async data => {
-                const location  = await iplocation(data.ip_address)
                 sendMail({
                     email_ids: req.body.email,
                     subject: `Successfully created ${data.project_name} app`,
