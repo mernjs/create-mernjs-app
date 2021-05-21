@@ -1,0 +1,18 @@
+.to_top {
+  background: #ccc;
+  color: #777;
+  text-align: center;
+  width: 60px;
+  height: 30px;
+  display: block;
+  margin: 0 auto;
+  -webkit-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0; }
+  .to_top:hover {
+    color: #fff; }
+  .to_top i {
+    position: relative;
+    top: -4px;
+    font-size: 36px; }
+
+

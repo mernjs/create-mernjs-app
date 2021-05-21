@@ -1,0 +1,62 @@
+.sticky_icon {
+  font-size: 20px; }
+
+.post_card {
+  background: #fff;
+  margin: 0 0 40px;
+  box-shadow: 0 2px 8px -2px rgba(10, 15, 17, 0.071);
+  border-radius: 3px; }
+
+.post_card_thum {
+  position: relative; }
+
+.post_card_thum_img {
+  display: block;
+  max-height: 196px;
+  border-radius: 3px; }
+
+.post_card_meta {
+  padding: 25px 12px 0;
+  position: relative; }
+
+.post_card_title {
+  font-size: 21px; }
+
+.typical {
+  text-align: right;
+  font-size: 14px; }
+
+.summary {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 8px; }
+
+.on_pagi {
+  padding: 0 0 40px; }
+
+nav.navigation {
+  text-align: center;
+  width: 100%; }
+
+.page-numbers {
+  background: #fff; }
+
+.archive_header {
+  margin-bottom: 40px;
+  background: #fff;
+  padding: 10px;
+  width: 100%; }
+
+.archive_title {
+  font-size: 18px; }
+
+.grid article {
+  flex: 0 0 100%; }
+
+.grid_1 .post_card_thum_img {
+  max-height: 300px; }
+
+.index_contents {
+  max-width: none; }
+
+

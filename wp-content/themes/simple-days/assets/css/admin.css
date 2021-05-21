@@ -1,0 +1,32 @@
+.wrap .simple_days_plugin_wrap {
+  position: relative;
+  border: none;
+  padding: 10px 30px;
+  background: #06beb6;
+  
+  background: -webkit-linear-gradient(to left, #48b1bf, #06beb6);
+  
+  background: linear-gradient(to left, #48b1bf, #06beb6);
+  
+  color: #fff; }
+
+.simple_days_plugin_wrap .notice-dismiss {
+  text-decoration: none; }
+.simple_days_plugin_wrap .button.installed:before, .simple_days_plugin_wrap .button.installing:before, .simple_days_plugin_wrap .button.updated-message:before, .simple_days_plugin_wrap .button.updating-message:before {
+  margin: 8px 8px 0 0; }
+
+h3.simple_days_notice_title {
+  font-size: 24px; }
+
+.simple_days_notice_description {
+  margin-bottom: 15px;
+  font-size: 16px; }
+
+.simple_days_plugin_wrap .simple-days-install-plugin {
+  padding: 0 22px;
+  line-height: 34px;
+  height: 36px;
+  font-size: 15px;
+  font-weight: 400; }
+
+

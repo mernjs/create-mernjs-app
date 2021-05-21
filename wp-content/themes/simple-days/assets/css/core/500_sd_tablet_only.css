@@ -1,0 +1,18 @@
+@media screen and (min-width: 768px) and (max-width: 979px) {
+  .f_col101 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row; }
+
+  .f_123 {
+    flex: 0 0 49%; }
+
+  .f_widget .fit_widget {
+    margin: -10px -15px; }
+
+  .rp_box_tt li {
+    flex: 0 0 40%; } }
+
+

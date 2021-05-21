@@ -1,0 +1,60 @@
+= 1.2.2 =
+* Fix: [Undo (Ctrl+Z) command makes the block unusable.](https://wordpress.org/support/topic/undo-ctrlz-command-makes-the-block-unusable/)
+
+= 1.2.1 =
+* Fix: [Problem with "First Line Number" while trying re-editing the post](https://wordpress.org/support/topic/problem-with-first-line-number-while-trying-re-editing-the-post/)
+
+= 1.2.0 =
+* Added: New Panel Added on top of Code Block.
+    = It Contains Language label witch display language/filename
+    = Three Buttons
+    1. Run/Execute Button [Requested](https://wordpress.org/support/topic/how-to-add-a-button-for-executing-the-code-blocks-for-the-user/)
+    1. Full Screen Button
+    1. Copy Code Button [Requested](https://wordpress.org/support/topic/how-to-create-copy-to-clipboard-button/)
+* Added: Enable Code Block on Home page [Requested](https://wordpress.org/support/topic/syntax-highlighting-not-working-on-homepage-of-twenty-seventeen-theme/)
+* Fix: [Codeblock Display Issue ](https://wordpress.org/support/topic/codeblock-display-issue/)
+
+= 1.1.3 =
+* Fix: Issue [Problems with the default highlighting setting](https://wordpress.org/support/topic/problems-with-the-default-highlighting-setting/)
+
+= 1.1.2 =
+* Fix: Issue [Html code](https://wordpress.org/support/topic/html-code-25/)
+
+= 1.1.1 =
+* Fix: Typo on Settings Page.
+
+= 1.1.0 =
+* Update: Now with CodeMirror Block it is more optimized and have new features.
+* Add: Option Page for set default options. [Suggested](https://wordpress.org/support/topic/default-code-theme/)
+* Add: Support for Classic Editor [Suggested](https://wordpress.org/support/topic/shortcode-for-classic-editor/)
+* Optimized: Now, CodeMirror Block js and css files will only load if needed [Suggested](https://wordpress.org/support/topic/loading-codemirror-files-on-pages-only-when-needed/)
+* Beta Add: Button for Execute code only works on HTML, CSS and JavaScript type code block [Suggested](https://wordpress.org/support/topic/how-to-add-a-button-for-executing-the-code-blocks-for-the-user/)
+* Fix: With Autoptimize it breaks some JavaScript. [Suggested](https://wordpress.org/support/topic/works-great-excepting/)
+
+= 1.0.7 =
+* Update: Suggested [Code](https://wordpress.org/support/topic/enqueuing-admin-scripts/).
+
+= 1.0.6 =
+* Add: Added 2 Event Listeners `wpcm_editor_loaded` and `wpcm_editors_loaded`
+
+= 1.0.5 =
+* Improve: Performance Improved.
+* Update: Suggested [Code](https://wordpress.org/support/topic/editors-2/#post-11274234).
+
+= 1.0.4 =
+* Change: minor changes.
+
+= 1.0.3 =
+* Improve: Performance.
+* Add: Some Suggested [Code](https://wordpress.org/support/topic/editors-2/).
+
+= 1.0.2 =
+* Change: minor changes.
+
+= 1.0.1 =
+* Fix: [Rust language](https://wordpress.org/support/topic/rust-language/) issue.
+* Fix: simple mode addon for (Docerfile, factor)
+* Fix: htmlembded mode addon for (Embedded Javascript, Embedded Ruby, ASP.NET, Java Server Pages)
+
+= 1.0 =
+* Created A New Plugin.

@@ -1,0 +1,3725 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Days\n"
+"POT-Creation-Date: 2021-02-26 17:20+0900\n"
+"PO-Revision-Date: 2021-02-26 17:20+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:9
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "お探しのページが見つかりません。"
+
+#: 404.php:39
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "こちらには何もありません。検索をお試しください。"
+
+#: comments.php:29
+msgid "One Comment"
+msgstr "1件のコメント"
+
+#: comments.php:34
+#, php-format
+msgid "%1$s Comments"
+msgstr "%1$s件のコメント"
+
+#: comments.php:58
+msgid "One Pingback"
+msgstr "1件のピンバック"
+
+#: comments.php:62
+#, php-format
+msgid "%1$s Pingbacks"
+msgstr "%1$s件のピンバック"
+
+#: comments.php:82
+msgid "Older Comments"
+msgstr "以前のコメント"
+
+#: comments.php:83
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: comments.php:94 comments.php:102
+msgid "Comments are closed."
+msgstr "コメントは現在停止中です。"
+
+#: comments.php:100
+msgid "Write a comment"
+msgstr "コメントを書く"
+
+#: comments.php:118
+msgid "Post Comment"
+msgstr "コメントを送信"
+
+#: comments.php:120
+msgid "Leave a Comment"
+msgstr "コメントする"
+
+#: comments.php:123 inc/customizer/setting-posts.php:622
+msgid "Comments"
+msgstr "コメント"
+
+#: comments.php:128
+msgctxt "comment placeholder"
+msgid "Name"
+msgstr "お名前"
+
+#: comments.php:133
+msgid "Email"
+msgstr "メールアドレス"
+
+#: comments.php:137
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: comments.php:141
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+"次回のコメントで使用するためブラウザーに自分の名前、メールアドレス、サイトを"
+"保存する。"
+
+#: functions.php:32
+msgid "Header Menu"
+msgstr "ヘッダーのメニュー"
+
+#: functions.php:33
+msgid "Footer Menu"
+msgstr "フッターのメニュー"
+
+#: functions.php:34
+msgid "Header Sub Menu"
+msgstr "ヘッダーのサブメニュー"
+
+#: inc/breadcrumbs.php:11
+msgid "Home"
+msgstr "ホーム"
+
+#: inc/breadcrumbs.php:133
+msgid "Author archive for "
+msgstr "投稿者のアーカイブ"
+
+#: inc/breadcrumbs.php:178 inc/breadcrumbs.php:185
+#, php-format
+msgid "Search query for: %s"
+msgstr "「 %s 」の検索結果"
+
+#: inc/breadcrumbs.php:185 inc/breadcrumbs.php:198
+#, php-format
+msgid "( Page %s )"
+msgstr "( %s ページ目 )"
+
+#: inc/breadcrumbs.php:190
+msgid "Error 404"
+msgstr "エラー 404"
+
+#: inc/customizer/control-plugin_install.php:46 inc/plugin_button.php:33
+#, php-format
+msgid "Install %s"
+msgstr "%sインストール"
+
+#: inc/customizer/control-plugin_install.php:53 inc/plugin_button.php:40
+#, php-format
+msgid "Activate %s"
+msgstr "%sを有効化"
+
+#: inc/customizer/control-plugin_install.php:60 inc/plugin_button.php:23
+msgid "Already activated"
+msgstr "有効"
+
+#: inc/customizer/control-plugin_install.php:73 inc/plugin_button.php:62
+msgid "Activating&hellip;"
+msgstr "有効にしています&hellip;"
+
+#: inc/customizer/control-plugin_install.php:73 inc/plugin_button.php:62
+msgid "Activated"
+msgstr "有効化済み"
+
+#: inc/customizer/control-sortable.php:60
+msgctxt "post_sortable"
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: inc/customizer/control-sortable.php:63
+msgctxt "post_sortable"
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer/control-sortable.php:66
+msgctxt "post_sortable"
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/control-sortable.php:69
+msgctxt "post_sortable"
+msgid "Author"
+msgstr "投稿者"
+
+#: inc/customizer/control-sortable.php:72
+msgctxt "post_sortable"
+msgid "Page views"
+msgstr "ページビュー数"
+
+#: inc/customizer/control-sortable.php:75
+msgctxt "post_sortable"
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/control-sortable.php:78
+msgctxt "post_sortable"
+msgid "Content"
+msgstr "記事本文"
+
+#: inc/customizer/control-sortable.php:81
+#: inc/customizer/control-sortable.php:84
+#: inc/customizer/control-sortable.php:87
+#: inc/customizer/control-sortable.php:90
+#: inc/customizer/control-sortable.php:93
+msgctxt "post_sortable"
+msgid "Widget"
+msgstr "ウィジェット"
+
+#: inc/customizer/control-sortable.php:96
+msgctxt "post_sortable"
+msgid "Page Link"
+msgstr "ページリンク"
+
+#: inc/customizer/control-sortable.php:99
+msgctxt "post_sortable"
+msgid "CTA"
+msgstr "CTA"
+
+#: inc/customizer/control-sortable.php:102
+msgctxt "post_sortable"
+msgid "Share"
+msgstr "シェア"
+
+#: inc/customizer/control-sortable.php:105
+msgctxt "post_sortable"
+msgid "About the author"
+msgstr "この記事の投稿者"
+
+#: inc/customizer/control-sortable.php:108
+msgctxt "post_sortable"
+msgid "Related"
+msgstr "関連記事"
+
+#: inc/customizer/control-sortable.php:111
+msgctxt "post_sortable"
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/control-sortable.php:114
+msgctxt "post_sortable"
+msgid "Tag"
+msgstr "タグ"
+
+#: inc/customizer/control-sortable.php:117
+msgctxt "post_sortable"
+msgid "Pagenation"
+msgstr "ページネーション"
+
+#: inc/customizer/control-sortable.php:120
+msgctxt "post_sortable"
+msgid "Comment"
+msgstr "コメント"
+
+#: inc/customizer/control-sortable.php:123
+msgctxt "post_sortable"
+msgid "Mystery"
+msgstr "謎"
+
+#: inc/customizer/custom_font.php:16
+msgctxt "post_heading"
+msgid "font size"
+msgstr "フォントのサイズ"
+
+#: inc/customizer/custom_font.php:31
+msgctxt "post_heading"
+msgid "font weight"
+msgstr "フォントの太さ"
+
+#: inc/customizer/custom_font.php:47
+msgctxt "post_heading"
+msgid "title color"
+msgstr "タイトルの色"
+
+#: inc/customizer/custom_font.php:59
+msgctxt "post_heading"
+msgid "title hover color"
+msgstr "タイトルのホバー時の色"
+
+#: inc/customizer/custom_font.php:71
+msgid "title position"
+msgstr "タイトルの位置"
+
+#: inc/customizer/custom_font.php:75 inc/customizer/setting-add_ons.php:160
+#: inc/customizer/setting-alert_box.php:46
+#: inc/customizer/setting-header.php:213 inc/customizer/setting-header.php:231
+#: inc/customizer/setting-header.php:251 inc/customizer/setting-header.php:305
+#: inc/customizer/setting-index.php:93 inc/customizer/setting-index.php:212
+#: inc/customizer/setting-index.php:250 inc/customizer/setting-index.php:408
+#: inc/customizer/setting-index.php:441 inc/customizer/setting-pages.php:99
+#: inc/customizer/setting-pages.php:194 inc/customizer/setting-posts.php:101
+#: inc/customizer/setting-posts.php:197 inc/customizer/setting-posts.php:503
+msgid "Left"
+msgstr "左"
+
+#: inc/customizer/custom_font.php:76 inc/customizer/setting-add_ons.php:161
+#: inc/customizer/setting-alert_box.php:47
+#: inc/customizer/setting-header.php:214 inc/customizer/setting-header.php:232
+#: inc/customizer/setting-header.php:306 inc/customizer/setting-index.php:409
+#: inc/customizer/setting-index.php:442 inc/customizer/setting-pages.php:100
+#: inc/customizer/setting-pages.php:195 inc/customizer/setting-posts.php:102
+#: inc/customizer/setting-posts.php:198 inc/customizer/setting-posts.php:504
+msgid "Center"
+msgstr "中央"
+
+#: inc/customizer/custom_font.php:77 inc/customizer/setting-add_ons.php:162
+#: inc/customizer/setting-alert_box.php:48
+#: inc/customizer/setting-header.php:215 inc/customizer/setting-header.php:233
+#: inc/customizer/setting-header.php:250 inc/customizer/setting-header.php:307
+#: inc/customizer/setting-index.php:94 inc/customizer/setting-index.php:213
+#: inc/customizer/setting-index.php:251 inc/customizer/setting-index.php:410
+#: inc/customizer/setting-index.php:443 inc/customizer/setting-pages.php:101
+#: inc/customizer/setting-pages.php:196 inc/customizer/setting-posts.php:103
+#: inc/customizer/setting-posts.php:199 inc/customizer/setting-posts.php:505
+msgid "Right"
+msgstr "右"
+
+#: inc/customizer/custom_font.php:84
+msgctxt "post_heading"
+msgid "padding"
+msgstr "パディング"
+
+#: inc/customizer/custom_font.php:84
+msgctxt "post_heading"
+msgid "margin"
+msgstr "マージン"
+
+#: inc/customizer/custom_font.php:94
+msgctxt "post_heading"
+msgid "(top,right,bottom,left)"
+msgstr "(上,右,下,左)"
+
+#: inc/customizer/custom_font.php:128
+#, php-format
+msgctxt "post_heading"
+msgid "border %s"
+msgstr "ボーダー %s"
+
+#: inc/customizer/custom_font.php:170
+msgctxt "post_heading"
+msgid "background image"
+msgstr "背景画像"
+
+#: inc/customizer/custom_font.php:182
+msgctxt "post_heading"
+msgid "background color"
+msgstr "背景色"
+
+#: inc/customizer/custom_font.php:193
+msgctxt "post_heading"
+msgid "border radius"
+msgstr "角丸"
+
+#: inc/customizer/custom_font.php:193
+msgctxt "post_heading"
+msgid "(top-left,top-right,bottom-right,bottom-left)"
+msgstr "(左上,右上,右下,左下)"
+
+#: inc/customizer/custom_font.php:221 inc/customizer/custom_font.php:230
+msgctxt "post_heading"
+msgid "balloon"
+msgstr "吹き出し"
+
+#: inc/customizer/custom_font.php:230
+msgctxt "post_heading"
+msgid "(position,width,height)"
+msgstr "(位置,幅,高さ)"
+
+#: inc/customizer/custom_font.php:271
+msgctxt "post_heading"
+msgid "balloon color"
+msgstr "吹き出しの色"
+
+#: inc/customizer/custom_gradient.php:17
+msgid "Style"
+msgstr "スタイル"
+
+#: inc/customizer/custom_gradient.php:21
+msgid "linear"
+msgstr "linear"
+
+#: inc/customizer/custom_gradient.php:22
+msgid "radial"
+msgstr "radial"
+
+#: inc/customizer/custom_gradient.php:23
+msgid "repeating linear"
+msgstr "repeating linear"
+
+#: inc/customizer/custom_gradient.php:24
+msgid "repeating radial"
+msgstr "repeating radial"
+
+#: inc/customizer/custom_gradient.php:34
+msgctxt "gradient_color"
+msgid "Degree"
+msgstr "角度"
+
+#: inc/customizer/custom_gradient.php:52
+msgctxt "gradient_color"
+msgid "Color"
+msgstr "カラー"
+
+#: inc/customizer/customizer.php:22
+msgid "none"
+msgstr "無し"
+
+#: inc/customizer/customizer.php:23
+msgid "Solid"
+msgstr "1本線"
+
+#: inc/customizer/customizer.php:24
+msgid "Double"
+msgstr "2本線"
+
+#: inc/customizer/customizer.php:25
+msgid "Groove"
+msgstr "溝付き線"
+
+#: inc/customizer/customizer.php:26
+msgid "Ridge"
+msgstr "稜線"
+
+#: inc/customizer/customizer.php:27
+msgid "Inset"
+msgstr "インセット"
+
+#: inc/customizer/customizer.php:28
+msgid "Outset"
+msgstr "アウトセット"
+
+#: inc/customizer/customizer.php:29
+msgid "Dashed"
+msgstr "破線"
+
+#: inc/customizer/customizer.php:30
+msgid "Dotted"
+msgstr "点線"
+
+#: inc/customizer/customizer.php:33
+msgctxt "post_heading"
+msgid "top"
+msgstr "上"
+
+#: inc/customizer/customizer.php:34
+msgctxt "post_heading"
+msgid "right"
+msgstr "右"
+
+#: inc/customizer/customizer.php:35
+msgctxt "post_heading"
+msgid "bottom"
+msgstr "下"
+
+#: inc/customizer/customizer.php:36
+msgctxt "post_heading"
+msgid "left"
+msgstr "左"
+
+#: inc/customizer/customizer.php:50
+msgid "Site settings"
+msgstr "サイトの設定"
+
+#: inc/customizer/customizer.php:56
+msgid "Colors"
+msgstr "色"
+
+#: inc/customizer/customizer.php:62
+msgid "Color Gradient"
+msgstr "グラデーションカラー"
+
+#: inc/customizer/customizer.php:70
+#: inc/customizer/setting-color_gradient.php:28
+#: inc/customizer/setting-colors.php:166 inc/widgets.php:103
+msgid "Header"
+msgstr "ヘッダー"
+
+#: inc/customizer/customizer.php:78
+#: inc/customizer/setting-color_gradient.php:56
+#: inc/customizer/setting-colors.php:259
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer/customizer.php:85
+#: inc/customizer/setting-color_gradient.php:82
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/customizer/customizer.php:95
+#: inc/customizer/setting-color_gradient.php:97
+#: inc/customizer/setting-colors.php:367
+msgid "Index"
+msgstr "インデックス"
+
+#: inc/customizer/customizer.php:102
+msgid "Posts"
+msgstr "投稿"
+
+#: inc/customizer/customizer.php:110
+msgid "Pages"
+msgstr "固定ページ"
+
+#: inc/customizer/customizer.php:117 inc/customizer/customizer.php:184
+#: inc/customizer/customizer.php:195 inc/customizer/customizer.php:197
+#: inc/notice.php:20 inc/tgm/tgm.php:63
+msgid "YAHMAN Add-ons"
+msgstr "YAHMAN Add-ons"
+
+#: inc/customizer/customizer.php:123
+msgid "Plugin by YAHMAN"
+msgstr "やーまん作成プラグイン"
+
+#: inc/customizer/customizer.php:195 inc/customizer/customizer.php:217
+#: inc/customizer/customizer.php:253 inc/customizer/customizer.php:279
+#, php-format
+msgid "Install Plugin [ %s ]"
+msgstr "プラグイン [ %s ] のインストール"
+
+#: inc/customizer/customizer.php:206 inc/customizer/customizer.php:217
+#: inc/customizer/customizer.php:219 inc/tgm/tgm.php:68
+msgid "Pages with category and tag"
+msgstr "Pages with category and tag"
+
+#: inc/customizer/customizer.php:231 inc/customizer/customizer.php:253
+#: inc/customizer/customizer.php:255 inc/tgm/tgm.php:73
+msgid "Word Balloon"
+msgstr "Word Balloon (吹き出し)"
+
+#: inc/customizer/customizer.php:269 inc/customizer/customizer.php:279
+#: inc/customizer/customizer.php:281 inc/tgm/tgm.php:78
+msgid "Point Maker"
+msgstr "Point Maker"
+
+#: inc/customizer/customizer.php:294
+msgid "Rating"
+msgstr "評価"
+
+#: inc/customizer/customizer.php:302
+msgid "Please rating"
+msgstr "評価してください"
+
+#: inc/customizer/customizer.php:304
+msgid "Do you enjoy Simple Days?"
+msgstr "Simple Days はいかがですか ?"
+
+#: inc/customizer/customizer.php:304
+msgid "If you like Simple Days please write a 5-star rating."
+msgstr "もし Simple Days が気に入ったら、5つ星の評価をしてください。"
+
+#: inc/customizer/customizer.php:304
+msgid "Thank you!"
+msgstr "ありがとうございました !"
+
+#: inc/customizer/customizer.php:304
+msgid "Click here to rate Simple Days"
+msgstr "Simple Days を評価する"
+
+#: inc/customizer/customizer_css.php:30
+msgid "Clear"
+msgstr "クリア"
+
+#: inc/customizer/setting-add_ons.php:11
+msgid "TOC"
+msgstr "目次"
+
+#: inc/customizer/setting-add_ons.php:31
+msgid "Font color"
+msgstr "文字の色"
+
+#: inc/customizer/setting-add_ons.php:32 inc/customizer/setting-add_ons.php:44
+#: inc/customizer/setting-add_ons.php:57 inc/customizer/setting-colors.php:74
+#: inc/customizer/setting-colors.php:81 inc/customizer/setting-colors.php:88
+#: inc/customizer/setting-colors.php:95 inc/customizer/setting-colors.php:103
+#: inc/customizer/setting-colors.php:111 inc/customizer/setting-colors.php:119
+#: inc/customizer/setting-colors.php:127 inc/customizer/setting-colors.php:135
+#: inc/customizer/setting-colors.php:143 inc/customizer/setting-colors.php:151
+#: inc/customizer/setting-colors.php:159 inc/customizer/setting-colors.php:173
+#: inc/customizer/setting-colors.php:180 inc/customizer/setting-colors.php:187
+#: inc/customizer/setting-colors.php:194 inc/customizer/setting-colors.php:201
+#: inc/customizer/setting-colors.php:208 inc/customizer/setting-colors.php:215
+#: inc/customizer/setting-colors.php:222 inc/customizer/setting-colors.php:229
+#: inc/customizer/setting-colors.php:245 inc/customizer/setting-colors.php:266
+#: inc/customizer/setting-colors.php:273 inc/customizer/setting-colors.php:280
+#: inc/customizer/setting-colors.php:287 inc/customizer/setting-colors.php:295
+#: inc/customizer/setting-colors.php:302 inc/customizer/setting-colors.php:312
+#: inc/customizer/setting-colors.php:320 inc/customizer/setting-colors.php:328
+#: inc/customizer/setting-colors.php:337 inc/customizer/setting-colors.php:344
+#: inc/customizer/setting-colors.php:351 inc/customizer/setting-colors.php:358
+#: inc/customizer/setting-colors.php:480 inc/customizer/setting-colors.php:487
+#: inc/customizer/setting-colors.php:493 inc/customizer/setting-colors.php:500
+#: inc/customizer/setting-colors.php:506 inc/customizer/setting-colors.php:513
+#: inc/customizer/setting-colors.php:519 inc/customizer/setting-colors.php:526
+#: inc/customizer/setting-colors.php:532 inc/customizer/setting-colors.php:562
+#: inc/customizer/setting-colors.php:570 inc/customizer/setting-colors.php:577
+#: inc/customizer/setting-colors.php:584 inc/customizer/setting-colors.php:591
+#: inc/customizer/setting-footer.php:225 inc/customizer/setting-footer.php:238
+#: inc/customizer/setting-header.php:21 inc/customizer/setting-header.php:35
+#: inc/customizer/setting-header.php:67 inc/customizer/setting-header.php:81
+#: inc/customizer/setting-header.php:119 inc/customizer/setting-header.php:144
+#: inc/customizer/setting-header.php:158 inc/customizer/setting-header.php:263
+#: inc/customizer/setting-header.php:324 inc/customizer/setting-header.php:396
+msgid "default&#58;"
+msgstr "通常&#58;"
+
+#: inc/customizer/setting-add_ons.php:43
+msgid "Link color"
+msgstr "リンクの色"
+
+#: inc/customizer/setting-add_ons.php:56
+msgid "Link hover color"
+msgstr "リンクにホバーした時"
+
+#: inc/customizer/setting-add_ons.php:82
+msgid "Pageview"
+msgstr "ページビュー"
+
+#: inc/customizer/setting-add_ons.php:102
+msgid "Display page view at the each post."
+msgstr "各ページのアクセス数を表示する。"
+
+#: inc/customizer/setting-add_ons.php:107
+msgid "Page View"
+msgstr "全ページビュー数"
+
+#: inc/customizer/setting-add_ons.php:108
+msgid "Yearly Page View"
+msgstr "年間ページビュー数"
+
+#: inc/customizer/setting-add_ons.php:109
+msgid "Monthly Page View"
+msgstr "月間ページビュー数"
+
+#: inc/customizer/setting-add_ons.php:110
+msgid "Weekly Page View"
+msgstr "週間ページビュー数"
+
+#: inc/customizer/setting-add_ons.php:111
+msgid "Daily Page View"
+msgstr "日間ページビュー数"
+
+#: inc/customizer/setting-add_ons.php:120
+msgid "Page view icon"
+msgstr "ページビュー数のアイコン"
+
+#: inc/customizer/setting-add_ons.php:156
+msgid "Post view display position"
+msgstr "アクセス数の表示位置"
+
+#: inc/customizer/setting-add_ons.php:172
+msgid "Display page view to logout user."
+msgstr "ログアウトしているユーザーにも表示する。"
+
+#: inc/customizer/setting-alert_box.php:11
+msgid "Alert Box"
+msgstr "アラートボックス"
+
+#: inc/customizer/setting-alert_box.php:19 inc/customizer/setting-pages.php:30
+#: inc/customizer/setting-posts.php:31 inc/customizer/setting-posts.php:516
+msgid "Display"
+msgstr "表示"
+
+#: inc/customizer/setting-alert_box.php:30
+msgid "Text"
+msgstr "文章"
+
+#: inc/customizer/setting-alert_box.php:42
+msgid "Text display position"
+msgstr "文章の表示する位置"
+
+#: inc/customizer/setting-alert_box.php:57
+msgid "Text Size"
+msgstr "文章のサイズ"
+
+#: inc/customizer/setting-alert_box.php:166
+msgid "Heading icon"
+msgstr "見出しアイコン"
+
+#: inc/customizer/setting-alert_box.php:176
+msgid "Ending icon"
+msgstr "終わりのアイコン"
+
+#: inc/customizer/setting-alert_box.php:188
+msgid "Text Color"
+msgstr "文字色"
+
+#: inc/customizer/setting-alert_box.php:198
+#: inc/customizer/setting-colors.php:80
+msgid "Background Color"
+msgstr "背景色"
+
+#: inc/customizer/setting-alert_box.php:210
+msgid "Border Type"
+msgstr "線のタイプ"
+
+#: inc/customizer/setting-alert_box.php:221
+msgid "Border width"
+msgstr "線の幅"
+
+#: inc/customizer/setting-alert_box.php:235
+msgid "Border Color"
+msgstr "線の色"
+
+#: inc/customizer/setting-alert_box.php:244
+msgid "Border is inside"
+msgstr "線を内側に配置"
+
+#: inc/customizer/setting-color_gradient.php:11
+#: inc/customizer/setting-colors.php:66
+msgid "Site"
+msgstr "サイト"
+
+#: inc/customizer/setting-color_gradient.php:20
+msgid "Background color"
+msgstr "背景色"
+
+#: inc/customizer/setting-color_gradient.php:37
+#: inc/customizer/setting-colors.php:186
+msgid "Header background color"
+msgstr "ヘッダー背景色"
+
+#: inc/customizer/setting-color_gradient.php:48
+#: inc/customizer/setting-colors.php:214
+msgid "Over Header background color"
+msgstr "ヘッダー上の背景色"
+
+#: inc/customizer/setting-color_gradient.php:65
+#: inc/customizer/setting-colors.php:311
+msgid "Credit background color"
+msgstr "クレジットエリア背景色"
+
+#: inc/customizer/setting-color_gradient.php:75
+#: inc/customizer/setting-color_gradient.php:91
+#: inc/customizer/setting-footer.php:248
+msgid "Widget Title"
+msgstr "ウィジェットのタイトル"
+
+#: inc/customizer/setting-color_gradient.php:106
+#: inc/customizer/setting-index.php:508
+msgid "Index title"
+msgstr "インデックスのタイトル"
+
+#: inc/customizer/setting-color_gradient.php:111
+#: inc/customizer/setting-posts.php:422
+msgid "Post Heading"
+msgstr "記事の見出し"
+
+#: inc/customizer/setting-color_gradient.php:122
+#: inc/customizer/setting-posts.php:444
+#, php-format
+msgctxt "post_heading"
+msgid "H%s"
+msgstr "H%s"
+
+#: inc/customizer/setting-colors.php:10
+msgid "Skin"
+msgstr "スキン"
+
+#: inc/customizer/setting-colors.php:19
+msgid "Skins"
+msgstr "スキン"
+
+#: inc/customizer/setting-colors.php:20
+msgid "You can easily change color"
+msgstr "簡単に色を変更できます"
+
+#: inc/customizer/setting-colors.php:25
+msgid "Red Orange"
+msgstr "レッドオレンジ"
+
+#: inc/customizer/setting-colors.php:26
+msgid "Orange"
+msgstr "オレンジ"
+
+#: inc/customizer/setting-colors.php:27
+msgid "Rose Peche"
+msgstr "ローズペーシュ"
+
+#: inc/customizer/setting-colors.php:28
+msgid "Grape Juice"
+msgstr "グレープジュース"
+
+#: inc/customizer/setting-colors.php:29
+msgid "Blue Yellow"
+msgstr "ブルーイエロー"
+
+#: inc/customizer/setting-colors.php:30
+msgid "Blue Ocean"
+msgstr "ブルーオーシャン"
+
+#: inc/customizer/setting-colors.php:31
+msgid "Petrole"
+msgstr "ペトロール"
+
+#: inc/customizer/setting-colors.php:32
+msgid "Apple Green"
+msgstr "アップルグリーン"
+
+#: inc/customizer/setting-colors.php:33
+msgid "Moss Green"
+msgstr "モスグリーン"
+
+#: inc/customizer/setting-colors.php:34
+msgid "Yellow Mustard"
+msgstr "イエローマスタード"
+
+#: inc/customizer/setting-colors.php:35
+msgid "Cinnamon"
+msgstr "シナモン"
+
+#: inc/customizer/setting-colors.php:36
+msgid "Brown Bread"
+msgstr "ブラウンブレッド"
+
+#: inc/customizer/setting-colors.php:37
+msgid "Gray Horse"
+msgstr "グレーホース"
+
+#: inc/customizer/setting-colors.php:38
+msgid "Black Coffee"
+msgstr "ブラックコーヒー"
+
+#: inc/customizer/setting-colors.php:46
+msgid "Selects skins randomly at access"
+msgstr "アクセス時にスキンをランダムに選択"
+
+#: inc/customizer/setting-colors.php:73
+msgid "Font Color"
+msgstr "文字の色"
+
+#: inc/customizer/setting-colors.php:87
+msgid "Link Color"
+msgstr "リンクの色"
+
+#: inc/customizer/setting-colors.php:94
+msgid "Link Hover Color"
+msgstr "リンクにホバーした時"
+
+#: inc/customizer/setting-colors.php:102
+msgid "Search button Color"
+msgstr "検索ボタンの色"
+
+#: inc/customizer/setting-colors.php:110
+msgid "Search button background color"
+msgstr "検索ボタンの背景色"
+
+#: inc/customizer/setting-colors.php:118
+msgid "Search button hover color"
+msgstr "検索ボタンのホバー時の色"
+
+#: inc/customizer/setting-colors.php:126
+msgid "Search button background hover color"
+msgstr "検索ボタンのホバー時背景色"
+
+#: inc/customizer/setting-colors.php:134
+msgid "Submit button Color"
+msgstr "送信ボタンの色"
+
+#: inc/customizer/setting-colors.php:142
+msgid "Submit button background color"
+msgstr "送信ボタンの背景色"
+
+#: inc/customizer/setting-colors.php:150
+msgid "Submit button hover color"
+msgstr "送信ボタンのホバー時の色"
+
+#: inc/customizer/setting-colors.php:158
+msgid "Submit button background hover color"
+msgstr "送信ボタンのホバー時の背景色"
+
+#: inc/customizer/setting-colors.php:172
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#: inc/customizer/setting-colors.php:179
+msgid "Tagline color"
+msgstr "キャッチフレーズの色"
+
+#: inc/customizer/setting-colors.php:193
+msgid "Sub Menu background color"
+msgstr "サブメニュー背景色"
+
+#: inc/customizer/setting-colors.php:200
+msgid "Sub Menu link color"
+msgstr "サブメニューの色"
+
+#: inc/customizer/setting-colors.php:207
+msgid "Sub Menu link hover color"
+msgstr "サブメニューのホバー時の色"
+
+#: inc/customizer/setting-colors.php:221
+msgid "Humberger menu color"
+msgstr "ハンバーガーメニューの色"
+
+#: inc/customizer/setting-colors.php:228
+msgid "Search color"
+msgstr "検索アイコンの色"
+
+#: inc/customizer/setting-colors.php:238
+msgid "Post & Page"
+msgstr "投稿と固定ページ"
+
+#: inc/customizer/setting-colors.php:244
+msgid "Main content background color"
+msgstr "メインコンテンツの背景色"
+
+#: inc/customizer/setting-colors.php:265
+msgid "Footer Widget background area color"
+msgstr "フッターウィジェットエリアの背景色"
+
+#: inc/customizer/setting-colors.php:272
+msgid "Footer Widget text color"
+msgstr "フッターウィジェットエリアのテキスト色"
+
+#: inc/customizer/setting-colors.php:279
+msgid "Footer Widget link color"
+msgstr "フッターウィジェットエリアのリンク色"
+
+#: inc/customizer/setting-colors.php:286
+msgid "Footer Menu background color"
+msgstr "フッターメニューの背景色"
+
+#: inc/customizer/setting-colors.php:294
+msgid "Footer Menu link color"
+msgstr "フッターメニューのリンクカラー"
+
+#: inc/customizer/setting-colors.php:301
+msgid "Footer Menu link hover color"
+msgstr "フッターメニューのリンクホバーカラー"
+
+#: inc/customizer/setting-colors.php:319
+msgid "Credit color"
+msgstr "クレジットエリア文字色"
+
+#: inc/customizer/setting-colors.php:327
+msgid "Credit link color"
+msgstr "クレジットエリアリンクカラー"
+
+#: inc/customizer/setting-colors.php:336
+msgid "to TOP color"
+msgstr "トップへ戻るボタンの色"
+
+#: inc/customizer/setting-colors.php:343
+msgid "to TOP Background color"
+msgstr "トップへ戻るボタンの背景色"
+
+#: inc/customizer/setting-colors.php:350
+msgid "to TOP Hover color"
+msgstr "トップへ戻るボタンホバー時の色"
+
+#: inc/customizer/setting-colors.php:357
+msgid "to TOP Hover Background color"
+msgstr "トップへ戻るボタンホバー時の背景色"
+
+#: inc/customizer/setting-colors.php:373
+msgid "Background"
+msgstr "背景"
+
+#: inc/customizer/setting-colors.php:380
+msgid "Text Color of Date"
+msgstr "日付のテキスト色"
+
+#: inc/customizer/setting-colors.php:386
+msgid "Background Color of Date"
+msgstr "日付の背景色"
+
+#: inc/customizer/setting-colors.php:392
+msgid "Separator Color of Date"
+msgstr "日付の区切り線"
+
+#: inc/customizer/setting-colors.php:398
+msgid "Text Color of Category"
+msgstr "カテゴリーのテキスト色"
+
+#: inc/customizer/setting-colors.php:404
+msgid "Border Color of Category"
+msgstr "カテゴリーの枠線の色"
+
+#: inc/customizer/setting-colors.php:410
+msgid "Background Color of Category"
+msgstr "カテゴリーの背景色"
+
+#: inc/customizer/setting-colors.php:416
+msgid "Text Hover Color of Category"
+msgstr "カテゴリーホバー時のテキスト色"
+
+#: inc/customizer/setting-colors.php:422
+msgid "Border Hover Color of Category"
+msgstr "カテゴリーホバー時の枠線の色"
+
+#: inc/customizer/setting-colors.php:428
+msgid "Background Hover Color of Category"
+msgstr "カテゴリーホバー時の背景色"
+
+#: inc/customizer/setting-colors.php:434
+msgid "Text Color of Read More"
+msgstr "続きを読むのテキスト色"
+
+#: inc/customizer/setting-colors.php:440
+msgid "Border Color of Read More"
+msgstr "続きを読むの枠線の色"
+
+#: inc/customizer/setting-colors.php:446
+msgid "Background Color of Read More"
+msgstr "続きを読むの背景色"
+
+#: inc/customizer/setting-colors.php:452
+msgid "Text Hover Color of Read More"
+msgstr "続きを読むホバー時のテキスト色"
+
+#: inc/customizer/setting-colors.php:458
+msgid "Border Hover Color of Read More"
+msgstr "続きを読むホバー時の枠線の色"
+
+#: inc/customizer/setting-colors.php:464
+msgid "Background Hover Color of Read More"
+msgstr "続きを読むホバー時の背景色"
+
+#: inc/customizer/setting-colors.php:472
+msgid "Header menu"
+msgstr "ヘッダーのメニュー"
+
+#: inc/customizer/setting-colors.php:479
+msgid "Header Menu background color ( when Two rows )"
+msgstr "ヘッダーメニューの背景色 ( 2行表示の時 )"
+
+#: inc/customizer/setting-colors.php:486
+msgid "Background color of header menu link"
+msgstr "メニューリンク背景色"
+
+#: inc/customizer/setting-colors.php:492
+msgid "Background hover color of header menu link"
+msgstr "メニューリンクホバー背景色"
+
+#: inc/customizer/setting-colors.php:499
+msgid "Font color of header menu link"
+msgstr "メニューリンク文字色"
+
+#: inc/customizer/setting-colors.php:505
+msgid "Font hover color of header menu link"
+msgstr "メニューリンクホバー文字色"
+
+#: inc/customizer/setting-colors.php:512
+msgid "Background color of header children menu link"
+msgstr "子メニューリンク背景色"
+
+#: inc/customizer/setting-colors.php:518
+msgid "Background hover color of header children menu link"
+msgstr "子メニューリンクホバー背景色"
+
+#: inc/customizer/setting-colors.php:525
+msgid "Font color of header children menu link"
+msgstr "子メニューリンク文字色"
+
+#: inc/customizer/setting-colors.php:531
+msgid "Font hover color of header children menu link"
+msgstr "子メニューリンクホバー文字色"
+
+#: inc/customizer/setting-colors.php:554
+msgid "YAHMAN Add-ons for Ranking"
+msgstr "YAHMAN Add-onsのランキング"
+
+#: inc/customizer/setting-colors.php:561
+msgid "Popular post ranking"
+msgstr "人気記事ランキング"
+
+#: inc/customizer/setting-colors.php:569
+msgid "Popular post ranking #1"
+msgstr "人気記事ランキング1位"
+
+#: inc/customizer/setting-colors.php:576
+msgid "Popular post ranking #2"
+msgstr "人気記事ランキング2位"
+
+#: inc/customizer/setting-colors.php:583
+msgid "Popular post ranking #3"
+msgstr "人気記事ランキング3位"
+
+#: inc/customizer/setting-colors.php:590
+msgid "Popular post ranking font color"
+msgstr "人気記事ランキング フォントカラー"
+
+#: inc/customizer/setting-footer.php:11 inc/customizer/setting-header.php:172
+#: inc/customizer/setting-index.php:12 inc/customizer/setting-index.php:23
+msgid "Layout"
+msgstr "レイアウト"
+
+#: inc/customizer/setting-footer.php:22
+msgid "Footer Menu Layout"
+msgstr "フッターメニューの位置"
+
+#: inc/customizer/setting-footer.php:26
+msgid "First"
+msgstr "上"
+
+#: inc/customizer/setting-footer.php:30
+msgid "Second"
+msgstr "真ん中"
+
+#: inc/customizer/setting-footer.php:34
+msgid "Third"
+msgstr "下"
+
+#: inc/customizer/setting-footer.php:54
+msgid "Back to top button"
+msgstr "トップへ戻るボタン"
+
+#: inc/customizer/setting-footer.php:64
+msgid "Reverse the order of credit area"
+msgstr "クレジットエリアの順序を逆にする"
+
+#: inc/customizer/setting-footer.php:74
+msgid "Credit area to one column"
+msgstr "クレジットエリアを1列にする"
+
+#: inc/customizer/setting-footer.php:83
+msgid "Credits"
+msgstr "クレジット"
+
+#: inc/customizer/setting-footer.php:100 inc/customizer/setting-footer.php:111
+#: inc/customizer/setting-footer.php:130 inc/customizer/setting-footer.php:140
+#: inc/customizer/setting-header.php:247 inc/customizer/setting-index.php:95
+#: inc/customizer/setting-index.php:214 inc/customizer/setting-index.php:252
+#: inc/customizer/setting-index.php:411 inc/customizer/setting-index.php:444
+msgid "Hide"
+msgstr "非表示"
+
+#: inc/customizer/setting-footer.php:101
+msgid "Tagline"
+msgstr "キャッチフレーズ"
+
+#: inc/customizer/setting-footer.php:112
+msgid "Privacy policy"
+msgstr "プライバシーポリシー"
+
+#: inc/customizer/setting-footer.php:131
+msgid "Powered by WordPress"
+msgstr "Powered by WordPress"
+
+#: inc/customizer/setting-footer.php:141
+msgid "Theme by Simple Days"
+msgstr "Theme by Simple Days"
+
+#: inc/customizer/setting-footer.php:172
+msgid "Year of Publication"
+msgstr "最初に投稿した年"
+
+#: inc/customizer/setting-footer.php:183
+msgid "Display the site map link at footer area"
+msgstr "フッターにサイトマップのリンクを表示する"
+
+#: inc/customizer/setting-footer.php:193
+msgid "Page slug to be display at the page."
+msgstr "表示する固定ページのスラッグ"
+
+#: inc/customizer/setting-footer.php:194
+msgid "e.g.&nbsp;"
+msgstr "例&nbsp;"
+
+#: inc/customizer/setting-footer.php:204 inc/customizer/setting-footer.php:214
+#: inc/customizer/setting-header.php:10
+msgid "Logo"
+msgstr "ロゴ"
+
+#: inc/customizer/setting-footer.php:224 inc/customizer/setting-header.php:20
+#: inc/customizer/setting-header.php:66
+msgid "Max width(px)"
+msgstr "最大の幅 (px)"
+
+#: inc/customizer/setting-footer.php:237 inc/customizer/setting-header.php:34
+#: inc/customizer/setting-header.php:80
+msgid "Max height(px)"
+msgstr "最大の高さ (px)"
+
+#: inc/customizer/setting-google_fonts.php:11
+msgid "Fonts"
+msgstr "フォント"
+
+#: inc/customizer/setting-google_fonts.php:33
+msgid "Anaglyph"
+msgstr "アナグリフ"
+
+#: inc/customizer/setting-google_fonts.php:34
+msgid "Brick Sign"
+msgstr "レンガ調"
+
+#: inc/customizer/setting-google_fonts.php:35
+msgid "Canvas Print"
+msgstr "キャンバス調"
+
+#: inc/customizer/setting-google_fonts.php:36
+msgid "Crackle"
+msgstr "ひび割れ"
+
+#: inc/customizer/setting-google_fonts.php:37
+msgid "Decaying"
+msgstr "腐食"
+
+#: inc/customizer/setting-google_fonts.php:38
+msgid "Destruction"
+msgstr "破壊"
+
+#: inc/customizer/setting-google_fonts.php:39
+msgid "Distressed"
+msgstr "アンティーク調"
+
+#: inc/customizer/setting-google_fonts.php:40
+msgid "Distressed Wood"
+msgstr "アンティーク調の木材"
+
+#: inc/customizer/setting-google_fonts.php:41
+msgid "Emboss"
+msgstr "浮き彫り"
+
+#: inc/customizer/setting-google_fonts.php:42
+msgid "Fire"
+msgstr "炎"
+
+#: inc/customizer/setting-google_fonts.php:43
+msgid "Fire Animation"
+msgstr "炎のアニメーション"
+
+#: inc/customizer/setting-google_fonts.php:44
+msgid "Fragile"
+msgstr "かよわい"
+
+#: inc/customizer/setting-google_fonts.php:45
+msgid "Grass"
+msgstr "芝生"
+
+#: inc/customizer/setting-google_fonts.php:46
+msgid "Ice"
+msgstr "アイス"
+
+#: inc/customizer/setting-google_fonts.php:47
+msgid "Mitosis"
+msgstr "細胞分裂"
+
+#: inc/customizer/setting-google_fonts.php:48
+msgid "Neon"
+msgstr "ネオン"
+
+#: inc/customizer/setting-google_fonts.php:49
+msgid "Outline"
+msgstr "輪郭"
+
+#: inc/customizer/setting-google_fonts.php:50
+msgid "Putting Green"
+msgstr "ゴルフグリーン"
+
+#: inc/customizer/setting-google_fonts.php:51
+msgid "Scuffed Steel"
+msgstr "かすれた鋼"
+
+#: inc/customizer/setting-google_fonts.php:52
+msgid "Shadow Multiple"
+msgstr "影"
+
+#: inc/customizer/setting-google_fonts.php:53
+msgid "Splintered"
+msgstr "砕片"
+
+#: inc/customizer/setting-google_fonts.php:54
+msgid "Static"
+msgstr "静電気"
+
+#: inc/customizer/setting-google_fonts.php:55
+msgid "Stonewash"
+msgstr "ストーンウオッシュ"
+
+#: inc/customizer/setting-google_fonts.php:56
+msgid "Three Dimensional"
+msgstr "3次元"
+
+#: inc/customizer/setting-google_fonts.php:57
+msgid "Three Dimensional Float"
+msgstr "浮かぶ3次元"
+
+#: inc/customizer/setting-google_fonts.php:58
+msgid "Vintage"
+msgstr "ビンテージ"
+
+#: inc/customizer/setting-google_fonts.php:59
+msgid "Wallpaper"
+msgstr "壁紙"
+
+#: inc/customizer/setting-google_fonts.php:71
+#: inc/customizer/setting-google_fonts.php:97
+msgid "Web Safe Fonts"
+msgstr "Web セーフフォント"
+
+#: inc/customizer/setting-google_fonts.php:77
+#: inc/customizer/setting-google_fonts.php:102
+#: inc/customizer/setting-google_fonts.php:161
+#: inc/customizer/setting-google_fonts.php:186
+msgctxt "font"
+msgid "Body"
+msgstr "全体"
+
+#: inc/customizer/setting-google_fonts.php:81
+#: inc/customizer/setting-google_fonts.php:106
+#: inc/customizer/setting-google_fonts.php:165
+#: inc/customizer/setting-google_fonts.php:190
+msgctxt "font"
+msgid "Headings"
+msgstr "見出し"
+
+#: inc/customizer/setting-google_fonts.php:85
+#: inc/customizer/setting-google_fonts.php:110
+#: inc/customizer/setting-google_fonts.php:118
+#: inc/customizer/setting-google_fonts.php:169
+#: inc/customizer/setting-google_fonts.php:194
+#: inc/customizer/setting-google_fonts.php:202
+msgctxt "font"
+msgid "Site title"
+msgstr "サイトタイトル"
+
+#: inc/customizer/setting-google_fonts.php:89
+#: inc/customizer/setting-google_fonts.php:114
+#: inc/customizer/setting-google_fonts.php:123
+#: inc/customizer/setting-google_fonts.php:173
+#: inc/customizer/setting-google_fonts.php:198
+#: inc/customizer/setting-google_fonts.php:207
+msgctxt "font"
+msgid "Post title"
+msgstr "記事タイトル"
+
+#: inc/customizer/setting-google_fonts.php:95
+#: inc/customizer/setting-google_fonts.php:156
+#: inc/customizer/setting-google_fonts.php:179
+msgid "Google Fonts"
+msgstr "Google フォント"
+
+#: inc/customizer/setting-google_fonts.php:97
+#: inc/customizer/setting-google_fonts.php:156
+#: inc/customizer/setting-google_fonts.php:181
+#, php-format
+msgid "This selection overrides %s."
+msgstr "ここを設定すると%sよりも優先されます。"
+
+#: inc/customizer/setting-google_fonts.php:118
+#: inc/customizer/setting-google_fonts.php:123
+#: inc/customizer/setting-google_fonts.php:202
+#: inc/customizer/setting-google_fonts.php:207
+msgid "(Effect)"
+msgstr "(効果)"
+
+#: inc/customizer/setting-google_fonts.php:130
+msgid ""
+"Verdana, \"YuGothic\", YuGothic, \"Hiragino Kaku Gothic ProN W3\", "
+"\"Hiragino Kaku Gothic ProN\", \"Meiryo\", Meiryo, sans-serif"
+msgstr ""
+"Verdana, \"游ゴシック\", YuGothic, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku "
+"Gothic ProN\", \"メイリオ\", Meiryo, sans-serif"
+
+#: inc/customizer/setting-google_fonts.php:131
+msgid ""
+"\"Times New Roman\", \"YuMincho\", YuMincho, \"Hiragino Mincho ProN W3\", "
+"\"Hiragino Mincho ProN\", \"Meiryo\", Meiryo, serif"
+msgstr ""
+"\"Times New Roman\", \"游明朝\", YuMincho, \"ヒラギノ明朝 ProN W3\", "
+"\"Hiragino Mincho ProN\", \"メイリオ\", Meiryo, serif"
+
+#: inc/customizer/setting-google_fonts.php:132
+msgid "\"Osaka\", Osaka-mono, \"MS Gothic\", \"MS Gothic\", monospace"
+msgstr ""
+"\"Osaka－等幅\", Osaka-mono, \"ＭＳ ゴシック\", \"MS Gothic\", monospace"
+
+#: inc/customizer/setting-google_fonts.php:133
+msgid ""
+"Verdana, Roboto, \"Droid Sans\", \"YuGothic\", YuGothic, \"Hiragino Kaku "
+"Gothic ProN W3\", \"Hiragino Kaku Gothic ProN\", \"Meiryo\", Meiryo, sans-"
+"serif"
+msgstr ""
+"Verdana, Roboto, \"Droid Sans\", \"游ゴシック\", YuGothic, \"ヒラギノ角ゴ "
+"ProN W3\", \"Hiragino Kaku Gothic ProN\", \"メイリオ\", Meiryo, sans-serif"
+
+#: inc/customizer/setting-google_fonts.php:139
+msgid "Sawarabi Mincho"
+msgstr "さわらび明朝"
+
+#: inc/customizer/setting-google_fonts.php:140
+msgid "Sawarabi Gothic"
+msgstr "さわらびゴシック"
+
+#: inc/customizer/setting-google_fonts.php:143
+msgid "Hannari"
+msgstr "はんなり明朝"
+
+#: inc/customizer/setting-google_fonts.php:144
+msgid "Kokoro"
+msgstr "こころ明朝"
+
+#: inc/customizer/setting-google_fonts.php:145
+msgid "Nikukyu"
+msgstr "ニクキュウ"
+
+#: inc/customizer/setting-google_fonts.php:146
+msgid "Nico Moji"
+msgstr "ニコモジ"
+
+#: inc/customizer/setting-google_fonts.php:154
+#: inc/customizer/setting-google_fonts.php:181
+msgid "Local Fonts"
+msgstr "ローカルフォント"
+
+#: inc/customizer/setting-google_fonts.php:154
+#: inc/customizer/setting-google_fonts.php:179
+#: inc/customizer/setting-google_fonts.php:181
+msgid "(Japanese)"
+msgstr "(日本語)"
+
+#: inc/customizer/setting-header.php:46
+msgid "Icon"
+msgstr "アイコン"
+
+#: inc/customizer/setting-header.php:55
+msgid "Icon Image"
+msgstr "アイコン"
+
+#: inc/customizer/setting-header.php:96
+msgid "Header image"
+msgstr "ヘッダー画像"
+
+#: inc/customizer/setting-header.php:104
+msgid "Text on Header image"
+msgstr "ヘッダー画像上のテキスト"
+
+#: inc/customizer/setting-header.php:118
+msgid "Header image percentage"
+msgstr "ヘッダー画像の割合"
+
+#: inc/customizer/setting-header.php:133
+msgid "Changing crop size of image"
+msgstr "画像の切り抜きサイズを変更する"
+
+#: inc/customizer/setting-header.php:143
+msgid "Width(px)"
+msgstr "幅(px)"
+
+#: inc/customizer/setting-header.php:144 inc/customizer/setting-header.php:158
+msgid ""
+"After the change, you need to restart customizer for the change to take "
+"effect."
+msgstr "変更後、変更を有効にするにはカスタマイザを再起動する必要があります。"
+
+#: inc/customizer/setting-header.php:157
+msgid "Height(px)"
+msgstr "高さ (px)"
+
+#: inc/customizer/setting-header.php:182
+msgid "Title and Menu Layout"
+msgstr "タイトルとメニューの表示位置"
+
+#: inc/customizer/setting-header.php:186
+msgid "One row Left Title Right Menu"
+msgstr "1行　左タイトル　右メニュー"
+
+#: inc/customizer/setting-header.php:190
+msgid "One row Left Menu Right Title"
+msgstr "1行　左メニュー　右タイトル"
+
+#: inc/customizer/setting-header.php:194
+msgid "Two rows Up Title Down Menu"
+msgstr "2行　上タイトル　下メニュー"
+
+#: inc/customizer/setting-header.php:198
+msgid "Two rows Up Menu Down Title"
+msgstr "2行　上メニュー　下タイトル"
+
+#: inc/customizer/setting-header.php:209
+msgid "Menu display position"
+msgstr "メニューの表示位置"
+
+#: inc/customizer/setting-header.php:216 inc/customizer/setting-header.php:303
+msgid "Space between"
+msgstr "アイテム間のスペース均等"
+
+#: inc/customizer/setting-header.php:217 inc/customizer/setting-header.php:304
+msgid "Space around"
+msgstr "アイテム両端のスペース均等"
+
+#: inc/customizer/setting-header.php:227
+msgid "Title display position ( when Two rows )"
+msgstr "タイトルの表示位置 (2行表示の時)"
+
+#: inc/customizer/setting-header.php:243
+msgid "Tagline display position"
+msgstr "キャッチフレーズの表示位置"
+
+#: inc/customizer/setting-header.php:248
+msgid "Top"
+msgstr "上"
+
+#: inc/customizer/setting-header.php:249
+msgid "Bottom"
+msgstr "下"
+
+#: inc/customizer/setting-header.php:262
+msgid "Header height(px)"
+msgstr "ヘッダーの高さ (px)"
+
+#: inc/customizer/setting-header.php:263
+msgid "Header height to auto when 54."
+msgstr "54の時はヘッダーの高さはオートになります。"
+
+#: inc/customizer/setting-header.php:276
+msgid "Sticky header"
+msgstr "ヘッダーの固定"
+
+#: inc/customizer/setting-header.php:287
+msgid "Display header shadow"
+msgstr "ヘッダーにシャドーを表示する"
+
+#: inc/customizer/setting-header.php:299
+msgid "Over header widget position"
+msgstr "ヘッダー上のウィジェット配置位置"
+
+#: inc/customizer/setting-header.php:314
+msgid "Site title"
+msgstr "サイトのタイトル"
+
+#: inc/customizer/setting-header.php:323
+msgid "Site title size(px)"
+msgstr "サイトタイトルのサイズ (px)"
+
+#: inc/customizer/setting-header.php:336
+msgid "font weight of Site title"
+msgstr "サイトタイトルのフォントの太さ"
+
+#: inc/customizer/setting-header.php:348
+msgid "Change font?"
+msgstr "フォントを変えますか ?"
+
+#: inc/customizer/setting-header.php:350
+msgid "Click here"
+msgstr "こちらをクリック"
+
+#: inc/customizer/setting-header.php:356
+msgid "Mobile"
+msgstr "モバイル"
+
+#: inc/customizer/setting-header.php:377
+msgid "Spin number of humberger menu"
+msgstr "ハンバーガーメニューの回転数"
+
+#: inc/customizer/setting-header.php:395
+msgid "Speed of humberger spin"
+msgstr "回転スピード"
+
+#: inc/customizer/setting-header.php:409
+msgid "Display humberger menu to right"
+msgstr "ハンバーガーメニューを右に表示する"
+
+#: inc/customizer/setting-index.php:24
+msgid "Choose a layout for the blog posts."
+msgstr "記事の表示方法を選択してください。"
+
+#: inc/customizer/setting-index.php:28
+msgid "List layout"
+msgstr "リスト型"
+
+#: inc/customizer/setting-index.php:32
+msgid "One grid layout"
+msgstr "1グリッド"
+
+#: inc/customizer/setting-index.php:36
+msgid "Two grid layout"
+msgstr "2グリッド"
+
+#: inc/customizer/setting-index.php:40
+msgid "Three grid layout"
+msgstr "3グリッド"
+
+#: inc/customizer/setting-index.php:44
+msgid "Two grid layout after one grid layout"
+msgstr "1グリッドの後2グリッド"
+
+#: inc/customizer/setting-index.php:48
+msgid "Three grid layout after one grid layout"
+msgstr "1グリッドの後3グリッド"
+
+#: inc/customizer/setting-index.php:62
+msgid "Category and date display style"
+msgstr "カテゴリーと日付の表示方法"
+
+#: inc/customizer/setting-index.php:67 inc/customizer/setting-index.php:157
+msgid "Simple Days style"
+msgstr "Simple Days スタイル"
+
+#: inc/customizer/setting-index.php:68 inc/customizer/setting-index.php:276
+msgid "Typical style"
+msgstr "典型的なスタイル"
+
+#: inc/customizer/setting-index.php:88
+msgid "Thumbnail display position"
+msgstr "サムネイルの表示位置"
+
+#: inc/customizer/setting-index.php:93
+msgid "(Up)"
+msgstr "(上)"
+
+#: inc/customizer/setting-index.php:94
+msgid "(Down)"
+msgstr "(下)"
+
+#: inc/customizer/setting-index.php:104 inc/customizer/setting-pages.php:61
+#: inc/customizer/setting-posts.php:62
+msgid "Original size of thumbnail"
+msgstr "サムネイルの画像サイズ"
+
+#: inc/customizer/setting-index.php:109 inc/customizer/setting-pages.php:11
+#: inc/customizer/setting-pages.php:31 inc/customizer/setting-pages.php:66
+#: inc/customizer/setting-posts.php:13 inc/customizer/setting-posts.php:32
+#: inc/customizer/setting-posts.php:67
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/customizer/setting-index.php:110 inc/customizer/setting-pages.php:67
+#: inc/customizer/setting-posts.php:68
+msgid "Medium"
+msgstr "中サイズ"
+
+#: inc/customizer/setting-index.php:111 inc/customizer/setting-pages.php:68
+#: inc/customizer/setting-posts.php:69
+msgid "Large"
+msgstr "大サイズ"
+
+#: inc/customizer/setting-index.php:112 inc/customizer/setting-pages.php:69
+#: inc/customizer/setting-posts.php:70
+msgid "Full"
+msgstr "フルサイズ"
+
+#: inc/customizer/setting-index.php:126
+msgid "How to Insert Index list widget area"
+msgstr "インデックスリスト内へのウィジェットエリアの挿入方法"
+
+#: inc/customizer/setting-index.php:130
+msgid "Just after post"
+msgstr "記事の後"
+
+#: inc/customizer/setting-index.php:131
+msgid "Every post"
+msgstr "記事ごと"
+
+#: inc/customizer/setting-index.php:141
+msgid "Count of post for above configuring"
+msgstr "上記設定の記事数"
+
+#: inc/customizer/setting-index.php:177
+msgid "post date display format"
+msgstr "記事の日付表示"
+
+#: inc/customizer/setting-index.php:181
+msgid "day-month-year"
+msgstr "日 - 月 - 年"
+
+#: inc/customizer/setting-index.php:182
+msgid "month-day-year"
+msgstr "月 - 日 - 年"
+
+#: inc/customizer/setting-index.php:192
+msgid "post date display shape"
+msgstr "記事の日付表示の型"
+
+#: inc/customizer/setting-index.php:193
+msgid "around of a line appear rounded or squared"
+msgstr "日付の囲み線"
+
+#: inc/customizer/setting-index.php:197
+msgid "Circle"
+msgstr "丸"
+
+#: inc/customizer/setting-index.php:198
+msgid "Square"
+msgstr "四角"
+
+#: inc/customizer/setting-index.php:208 inc/customizer/setting-pages.php:95
+#: inc/customizer/setting-posts.php:97
+msgid "Post date display position"
+msgstr "日付の表示位置"
+
+#: inc/customizer/setting-index.php:223 inc/customizer/setting-index.php:294
+#: inc/customizer/setting-pages.php:164 inc/customizer/setting-posts.php:166
+msgid "Time"
+msgstr "時刻"
+
+#: inc/customizer/setting-index.php:246
+msgid "Post category display position"
+msgstr "カテゴリーの表示位置"
+
+#: inc/customizer/setting-index.php:262
+msgid "Add after day"
+msgstr "日の後ろに追加"
+
+#: inc/customizer/setting-index.php:285 inc/customizer/setting-pages.php:76
+#: inc/customizer/setting-posts.php:78
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/setting-index.php:304
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/setting-index.php:322
+msgid "Excerpt"
+msgstr "抜粋"
+
+#: inc/customizer/setting-index.php:349
+msgid "Excerpt length"
+msgstr "抜粋文字数"
+
+#: inc/customizer/setting-index.php:361
+msgid "Excerpt type"
+msgstr "抜粋方法"
+
+#: inc/customizer/setting-index.php:365
+msgid "Words"
+msgstr "単語"
+
+#: inc/customizer/setting-index.php:366
+msgid "Characters"
+msgstr "文字数"
+
+#: inc/customizer/setting-index.php:376
+msgid "Ellipsis"
+msgstr "省略文字"
+
+#: inc/customizer/setting-index.php:404
+msgid "Read More display position"
+msgstr "続きを読むの場所"
+
+#: inc/customizer/setting-index.php:418 inc/customizer/setting-pages.php:171
+#: inc/customizer/setting-posts.php:173
+msgid "Author"
+msgstr "投稿者"
+
+#: inc/customizer/setting-index.php:437 inc/customizer/setting-pages.php:190
+#: inc/customizer/setting-posts.php:193
+msgid "Author display position"
+msgstr "投稿者の表示位置"
+
+#: inc/customizer/setting-index.php:453 inc/customizer/setting-pages.php:206
+#: inc/customizer/setting-posts.php:209
+msgid "Author icon"
+msgstr "投稿者のアイコン"
+
+#: inc/customizer/setting-index.php:481
+msgid "Avatar in place of icon"
+msgstr "アイコンの代わりにアバターを使用する"
+
+#: inc/customizer/setting-index.php:490
+msgid "Title"
+msgstr "タイトル"
+
+#: inc/customizer/setting-menu_icon.php:12
+#: inc/customizer/setting-menu_icon.php:91
+msgid "Menu Icon"
+msgstr "メニューアイコン"
+
+#: inc/customizer/setting-menu_icon.php:24
+msgid "Header Menu Icon"
+msgstr "ヘッダーのメニューアイコン"
+
+#: inc/customizer/setting-menu_icon.php:42
+#: inc/customizer/setting-menu_icon.php:129
+#, php-format
+msgid "Icon #%s"
+msgstr "アイコン #%s"
+
+#: inc/customizer/setting-menu_icon.php:52
+#: inc/customizer/setting-menu_icon.php:139
+msgid "Select"
+msgstr "選択"
+
+#: inc/customizer/setting-menu_icon.php:63
+#: inc/customizer/setting-menu_icon.php:149
+msgid "after icon"
+msgstr "アイコンを後ろに"
+
+#: inc/customizer/setting-menu_icon.php:103
+msgid "FontAwesome 4 Icon List"
+msgstr "FontAwesome 4のアイコンリスト"
+
+#: inc/customizer/setting-menu_icon.php:103
+msgid "You need full icons?"
+msgstr "すべてのアイコンが必要ですか ?"
+
+#: inc/customizer/setting-menu_icon.php:115
+msgid "Footer Menu Icon"
+msgstr "フッターのメニューアイコン"
+
+#: inc/customizer/setting-pages.php:41
+msgid "Page title over the thumbnail"
+msgstr "サムネイル上にタイトルを表示する"
+
+#: inc/customizer/setting-pages.php:51 inc/customizer/setting-posts.php:52
+msgid "Full width thumbnail at under the header"
+msgstr "ヘッダー下に全幅のサムネイルを表示する"
+
+#: inc/customizer/setting-pages.php:111 inc/customizer/setting-posts.php:113
+msgid "Display method Post date"
+msgstr "日付の表示方法"
+
+#: inc/customizer/setting-pages.php:115 inc/customizer/setting-posts.php:117
+msgid "Only Date"
+msgstr "投稿日のみ"
+
+#: inc/customizer/setting-pages.php:116 inc/customizer/setting-posts.php:118
+msgid "Date hide when post have update."
+msgstr "更新日がある場合は投稿日を非表示"
+
+#: inc/customizer/setting-pages.php:117 inc/customizer/setting-posts.php:119
+msgid "Both"
+msgstr "両方"
+
+#: inc/customizer/setting-pages.php:126 inc/customizer/setting-posts.php:128
+msgid "Date icon"
+msgstr "日付のアイコン"
+
+#: inc/customizer/setting-pages.php:145 inc/customizer/setting-posts.php:147
+msgid "Update icon"
+msgstr "更新日のアイコン"
+
+#: inc/customizer/setting-pages.php:234 inc/customizer/setting-posts.php:237
+msgid "Avatar in place of icon."
+msgstr "アイコンの代わりにアバターを使用する"
+
+#: inc/customizer/setting-pages.php:253 inc/customizer/setting-posts.php:277
+msgid "Category &amp; Tag"
+msgstr "カテゴリー &amp; タグ"
+
+#: inc/customizer/setting-pages.php:271 inc/customizer/setting-posts.php:299
+msgid "Category icon"
+msgstr "カテゴリーのアイコン"
+
+#: inc/customizer/setting-pages.php:296 inc/customizer/setting-posts.php:324
+msgid "Tag icon"
+msgstr "タグのアイコン"
+
+#: inc/customizer/setting-pages.php:314 inc/customizer/setting-pages.php:329
+#: inc/customizer/setting-posts.php:340 inc/customizer/setting-posts.php:363
+msgid "Reorder Sections & Show / Hide"
+msgstr "セクションの並び替え & 表示 / 非表示"
+
+#: inc/customizer/setting-pages.php:330 inc/customizer/setting-posts.php:364
+msgid "drag the columns to rearrange their order."
+msgstr "カラムをドラッグして並び替えます"
+
+#: inc/customizer/setting-pages.php:330 inc/customizer/setting-posts.php:364
+msgid "Switch to show or hide when eye icon click or tap."
+msgstr ""
+"目のアイコンをクリックまたはタップしたときに表示または非表示に切り替えます。"
+
+#: inc/customizer/setting-posts.php:42
+msgid "Post title over the thumbnail"
+msgstr "サムネイル上にタイトルを表示する"
+
+#: inc/customizer/setting-posts.php:379
+msgid "Post Title"
+msgstr "記事のタイトル"
+
+#: inc/customizer/setting-posts.php:489
+msgid "Breadcrumbs"
+msgstr "パンくずリスト"
+
+#: inc/customizer/setting-posts.php:499
+msgid "Breadcrumbs display position"
+msgstr "パンくずリスト表示位置"
+
+#: inc/customizer/setting-posts.php:517
+msgid "Current name"
+msgstr "現在のページ名"
+
+#: inc/customizer/setting-posts.php:530
+msgid "Delimiter"
+msgstr "区切り文字"
+
+#: inc/customizer/setting-posts.php:553
+msgid "Home icon"
+msgstr "ホームアイコン"
+
+#: inc/customizer/setting-posts.php:576
+msgid "Tree icon"
+msgstr "ツリーアイコン"
+
+#: inc/customizer/setting-posts.php:599
+msgid "Current icon"
+msgstr "現在のアイコン"
+
+#: inc/customizer/setting-posts.php:630
+msgid "Comment Text Field to Bottom"
+msgstr "コメント欄を下にする"
+
+#: inc/customizer/setting-posts.php:640
+msgid "Website Field disappear"
+msgstr "ウェブサイトの欄を非表示にする"
+
+#: inc/customizer/setting-posts.php:647
+msgid "Anchor"
+msgstr "アンカー"
+
+#: inc/customizer/setting-posts.php:656
+msgid "Underline"
+msgstr "下線"
+
+#: inc/customizer/setting-sidebar.php:38
+msgctxt "no_sidebar"
+msgid "Author"
+msgstr "投稿者"
+
+#: inc/customizer/setting-sidebar.php:39
+msgctxt "no_sidebar"
+msgid "Category"
+msgstr "カテゴリー"
+
+#: inc/customizer/setting-sidebar.php:40
+msgctxt "no_sidebar"
+msgid "Tag"
+msgstr "タグ"
+
+#: inc/customizer/setting-sidebar.php:41
+msgctxt "no_sidebar"
+msgid "Date"
+msgstr "日付"
+
+#: inc/customizer/setting-sidebar.php:42
+msgctxt "no_sidebar"
+msgid "Search"
+msgstr "検索"
+
+#: inc/customizer/setting-sidebar.php:43
+msgctxt "no_sidebar"
+msgid "404"
+msgstr "404"
+
+#: inc/customizer/setting-sidebar.php:52 templates/without_sidebar.php:9
+msgid "Without sidebar"
+msgstr "サイドバー無し"
+
+#: inc/customizer/setting-sidebar.php:62
+#, php-format
+msgctxt "no_sidebar"
+msgid "%s page"
+msgstr "%sのページ"
+
+#: inc/customizer/setting-sidebar.php:74
+msgid "Enter the post ID without using the sidebar"
+msgstr "この機能を使わない投稿IDを入力"
+
+#: inc/customizer/setting-sidebar.php:75
+msgid "Multiple id must be separated by a comma."
+msgstr "複数ある場合は  ,  (コンマ)で区切ってください。"
+
+#: inc/customizer/setting-site.php:15
+msgid "the separator for the document title."
+msgstr "記事タイトルとサイト名の区切り"
+
+#: inc/customizer/setting-site.php:48
+msgid "Box Size"
+msgstr "ボックスサイズ"
+
+#: inc/customizer/setting-site.php:57
+msgid "Flame max width(px)"
+msgstr "フレーム最大幅(px)"
+
+#: inc/customizer/setting-site.php:58 inc/customizer/setting-site.php:72
+#: inc/customizer/setting-site.php:86 inc/customizer/setting-site.php:100
+msgid "Recommend"
+msgstr "オススメ"
+
+#: inc/customizer/setting-site.php:58
+msgid "Two columns"
+msgstr "2列"
+
+#: inc/customizer/setting-site.php:58
+msgid "Three columns"
+msgstr "3列"
+
+#: inc/customizer/setting-site.php:71
+msgid "Content max width(px)"
+msgstr "コンテンツ最大幅(px)"
+
+#: inc/customizer/setting-site.php:85
+msgid "Sidebar max width(px)"
+msgstr "サイドバー最大幅(px)"
+
+#: inc/customizer/setting-site.php:99
+msgid "Sidebar min width(px)"
+msgstr "サイドバー最低幅(px)"
+
+#: inc/customizer/setting-site.php:110 inc/customizer/setting-site.php:120
+msgid "Box Style"
+msgstr "ボックススタイル"
+
+#: inc/customizer/setting-site.php:124
+msgid "Flat"
+msgstr "フラット"
+
+#: inc/customizer/setting-site.php:125
+msgid "Shadow"
+msgstr "シャドウ"
+
+#: inc/customizer/setting-site.php:134
+msgid "Option"
+msgstr "オプション"
+
+#: inc/customizer/setting-site.php:145
+msgid "No Image"
+msgstr "画像無し"
+
+#: inc/customizer/setting-site.php:146
+msgid "No thumbnail page use this image."
+msgstr "サムネイルが無い場合はこの画像が使われます。"
+
+#: inc/customizer/setting-site.php:156
+msgid "404 Image"
+msgstr "404イメージ"
+
+#: inc/customizer/setting-site.php:157
+msgid "404 page use this image."
+msgstr "404のページでこの画像が使われます。"
+
+#: inc/customizer/setting-site.php:166
+msgid "CSS"
+msgstr "CSS"
+
+#: inc/customizer/setting-site.php:176
+msgid "Style Css inline mode"
+msgstr "スタイルシートをインラインで表示する"
+
+#: inc/customizer/setting-site.php:186
+msgid "Style Css inline mode of Simple Days Plus"
+msgstr "Simple Days Plus のスタイルシートをインラインで読み込む"
+
+#: inc/customizer/setting-site.php:190
+msgid "Disable"
+msgstr "無効"
+
+#: inc/customizer/setting-widget_title.php:12
+msgctxt "widget_title"
+msgid "Sidebar"
+msgstr "サイドバー"
+
+#: inc/customizer/setting-widget_title.php:12
+msgctxt "widget_title"
+msgid "Footer"
+msgstr "フッター"
+
+#: inc/customizer/setting-widget_title.php:21
+msgctxt "widget_title"
+msgid "Widget title"
+msgstr "ウィジェットのタイトル"
+
+#: inc/customizer/starter_content.php:56
+msgctxt "customizer"
+msgid "Blog"
+msgstr "Blog"
+
+#: inc/customizer/starter_content.php:57
+msgid "You only live once. Might as well enjoy it."
+msgstr "人生は一度きり。楽しまなくちゃ !"
+
+#: inc/customizer/starter_content.php:57 inc/customizer/starter_content.php:63
+msgid "This is an example page."
+msgstr "これはサンプルページです。"
+
+#: inc/customizer/starter_content.php:57 inc/customizer/starter_content.php:63
+msgid "You should go to your dashboard to delete this page. Have fun!"
+msgstr ""
+"ダッシュボードへ行ってこのページを削除してください。それでは、お楽しみくださ"
+"い !"
+
+#: inc/customizer/starter_content.php:62
+msgctxt "customizer"
+msgid "Services"
+msgstr "サービス"
+
+#: inc/customizer/starter_content.php:63
+msgid "I will skip work tomorrow."
+msgstr "明日はサボろう。"
+
+#: inc/customizer/starter_content.php:84
+msgid "Primary Menu"
+msgstr "メインメニュー"
+
+#: inc/lib/admin_page.php:22
+msgctxt "dashboard"
+msgid "Color"
+msgstr "色"
+
+#: inc/lib/admin_page.php:23
+msgid "Customize Homepage"
+msgstr "ホームページのカスタマイズ"
+
+#: inc/lib/admin_page.php:33
+msgid "How to customize Homepage"
+msgstr "ホームページのカスタマイズ方法"
+
+#: inc/lib/admin_page.php:59
+msgid "Activated \"Custom Homepage\" successfully."
+msgstr "「カスタムホームページ」は有効です。"
+
+#: inc/lib/admin_page.php:65
+msgid "YAHMAN Add-ons of plugin provide a widgets for \"Custom Homepage\""
+msgstr ""
+"プラグインのYAHMAN Add-onsは、「カスタムホームページ」のウィジェットを提供し"
+"てます"
+
+#: inc/lib/admin_page.php:70
+msgid "Adding widgets to \"Custom Homepage\" from Widget area."
+msgstr ""
+"ウィジェットエリアから「カスタムホームページ」にウィジェットを追加できます。"
+
+#: inc/lib/admin_page.php:73
+msgid "Widgets"
+msgstr "ウィジェット"
+
+#: inc/lib/admin_page.php:88
+msgid "Homepage change to a static page"
+msgstr "ホームページを固定ページに変更"
+
+#: inc/lib/admin_page.php:91
+msgid "Open Reading Settings"
+msgstr "表示設定を開く"
+
+#: inc/lib/admin_page.php:94
+msgid "Select \"A Static page\" from \"Your homepage displays\""
+msgstr "「ホームページの表示」から「固定ページ  ( 以下を選択 ) 」を選択します"
+
+#: inc/lib/admin_page.php:97
+msgid ""
+"Select page with applied a Template \"Custom Homepage\" from \"Homepage:\""
+msgstr ""
+"「ホームページ:」からテンプレート「カスタムホームページ」を適用させた固定ペー"
+"ジを選択します。"
+
+#: inc/lib/admin_page.php:100
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: inc/lib/admin_page.php:109
+msgid "Create a page &#38; Apply a page template"
+msgstr "固定ページの作成とテンプレートの適用"
+
+#: inc/lib/admin_page.php:112
+msgid "Create a page"
+msgstr "固定ページを作成"
+
+#: inc/lib/admin_page.php:115
+msgid "Title is anything ok. Content of articles does not reflects."
+msgstr "タイトルは何でも構いません。 記事の内容は反映されません。"
+
+#: inc/lib/admin_page.php:118
+msgid "Select Template-\"Custom Homepage\" from \"Page Attributes\" dialog box"
+msgstr ""
+"「固定ページの属性」ダイアログボックスからテンプレート「カスタムホームペー"
+"ジ」を選択します。"
+
+#: inc/lib/admin_page.php:121
+msgid "Publish"
+msgstr "公開"
+
+#: inc/notice.php:28
+msgid "Welcome! Thank you for choosing the theme Simple Days."
+msgstr "ようこそ ! テーマ Simple Days をお選び頂きありがとうございます。"
+
+#: inc/notice.php:30
+#, php-format
+msgid ""
+"If you want to take full advantage of the options this theme has to offer, "
+"please install and activate %s."
+msgstr ""
+"このテーマが提供するオプションを十分に活用する場合、%s を是非インストールして"
+"ください。"
+
+#: inc/notice.php:33
+msgid "This plugin optimize for Simple Days."
+msgstr "このプラグインはSimple Daysに最適化しています。"
+
+#: inc/notice.php:36
+msgid ""
+"Google Adsense,Analytics,Pageviews,Social,Profile,Table of contents,sitemap,"
+"OGP,Blog card,Twitter timeline,Facebook timeline,Accelerated Mobile "
+"Pages(AMP), etc."
+msgstr ""
+"Google アドセンス、アナリティクス、ページビュー、 SNS 、プロフィール、目次、"
+"サイトマップ、 OGP 、ブログカード、 Twitter タイムライン、 Facebook タイムラ"
+"イン、 AMP 、等"
+
+#: inc/notice.php:39
+msgid "Of course, it's free."
+msgstr "もちろん無料です。"
+
+#: inc/template-tags.php:458
+msgid "Site Map"
+msgstr "サイトマップ"
+
+#: inc/template-tags.php:472
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#. Theme URI of the plugin/theme
+#: inc/template-tags.php:473
+msgid "https://dev.back2nature.jp/en/simple-days/"
+msgstr "https://dev.back2nature.jp/simple-days/"
+
+#: inc/template-tags.php:521 inc/template-tags.php:546
+msgid "Edit"
+msgstr "編集"
+
+#: inc/template-tags.php:543
+msgid "Reply"
+msgstr "返信"
+
+#: inc/template-tags.php:559
+msgid "*Your comment is awaiting moderation.*"
+msgstr "*あなたのコメントは現在承認待ちです。*"
+
+#: inc/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "必要なプラグインのインストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "プラグインのインストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "インストールしているプラグイン: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "プラグインの更新: %s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Plugin API  で問題が発生しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "このテーマは、以下のプラグインの利用が必要です: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "このテーマは、以下のプラグインの利用を推奨しています: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"%1$s プラグインは、このテーマとの互換性を完全にするために最新バージョンへの更"
+"新が必要です。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "プラグインの更新が利用可能です (%1$s) 。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "必須プラグインが現在無効です: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "推奨プラグインが現在無効です: %1$s。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "プラグインのインストールを開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "プラグインの更新を開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "プラグインの有効化を開始"
+
+#: inc/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "必要なプラグインインストーラに戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:386
+#: inc/tgm/class-tgm-plugin-activation.php:827
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+#: inc/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "ダッシュボードに戻る"
+
+#: inc/tgm/class-tgm-plugin-activation.php:387
+#: inc/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "プラグインが正常に起動しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:388
+#: inc/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "以下のプラグインを有効化しました:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "操作を実行しませんでした。プラグイン %1$s はすでに有効です。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"プラグインを有効化できませんでした。このテーマには上位バージョンの %s が必要"
+"です。プラグインを更新してください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "すべてのプラグインを正常にインストール、有効化しました。 %1$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "無視する"
+
+#: inc/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"インストール、更新または有効化する、1つ以上の必須または推奨プラグインがありま"
+"す。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "ヘルプが必要な場合はこのサイトの管理者にお問い合わせください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"使用中のテーマとの互換性を保つため、このプラグインを更新する必要があります。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"リモートプラグインパッケージには、指定されたスラッグのフォルダがないため、名"
+"前の変更ができませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:934
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"プラグイン開発者に連絡し、WordPress のガイドラインに従ってプラグインをパッ"
+"ケージ化するように依頼してください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"リモートプラグインパッケージは複数のファイルで構成されていますが、ファイルは1"
+"つのフォルダー内にパッケージされていません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1121
+#: inc/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "と"
+
+#: inc/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "必須"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "おすすめ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "WordPress 公式ディレクトリ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "外部ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "プリパッケージ済み"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "インストールされてません"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "停止中"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "有効"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "必要な更新が利用できない"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "更新が必要です"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "更新が推奨されています"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "すべて <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "未インストール <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "利用可能な更新 <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "使用中 <span class=\"count\">(%s)</span>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "不明"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "インストールバージョン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "最低要求バージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "利用可能なバージョン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "インストール、更新、または有効化するプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "プラグイン:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "ソース"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "タイプ"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "バージョン"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "ステータス"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr "%2$s インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr "%2$s を更新"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr "%2$s を有効化"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "プラグイン作者からの更新メッセージ:"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "インストール"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "更新"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "有効化"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"インストールするプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "更新するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "現時点でインストールできるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "現在更新できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "有効化するプラグインが選択されていません。何も実行しませんでした。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "現時点で有効化できるプラグインはありません。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "プラグインのアクティベーションに失敗しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインの更新: %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "%1$s のインストール中にエラーが発生しました: <strong>%2$s</strong>"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "%1$s のインストールに失敗しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"インストールと有効化プロセスを開始しています。サーバーによっては少し時間がか"
+"かるかもしれません。しばらくお待ちください。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s を正常にインストールし、有効化しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "詳細を表示"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3509
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "詳細を非表示"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "すべてのインストールと有効化が完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストール、有効化しています %1$s (%2$d/%3$d)"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"更新プロセスを開始しています。サーバーによっては少し時間がかかるかもしれませ"
+"ん。しばらくお待ちください"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s を正常にインストールしました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "すべてのインストールが完了しました。"
+
+#: inc/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "プラグインをインストールしています %1$s (%2$d/%3$d)"
+
+#: inc/tgm/tgm.php:83
+msgid "Brief Message"
+msgstr "Brief Message"
+
+#: inc/tgm/tgm.php:88
+msgid "Just Output"
+msgstr "Just Output"
+
+#: inc/tgm/tgm.php:93
+msgid "Simple Stripe"
+msgstr "Simple Stripe"
+
+#: inc/widgets.php:5
+msgid "Right Sidebar"
+msgstr "右サイドバー"
+
+#: inc/widgets.php:7 inc/widgets.php:16 inc/widgets.php:25 inc/widgets.php:34
+#: inc/widgets.php:43 inc/widgets.php:53 inc/widgets.php:63 inc/widgets.php:75
+#: inc/widgets.php:105 inc/widgets.php:115 inc/widgets.php:131
+#: inc/widgets.php:141 inc/widgets.php:150 inc/widgets.php:160
+#: inc/widgets.php:172 inc/widgets.php:186
+#, php-format
+msgid "Widgets in this area will be displayed in %s."
+msgstr "このエリアのウィジェットは%sに表示されます。"
+
+#: inc/widgets.php:7
+msgid "the right sidebar"
+msgstr "右サイドバー"
+
+#: inc/widgets.php:7 inc/widgets.php:16
+msgid ""
+"When using both the left and right sidebars, it is recommended to adjust the "
+"width with the customizer."
+msgstr ""
+"左右のサイドバーを両方使う場合は、カスタマイザーで幅の調整をする事をおすすめ"
+"します。"
+
+#: inc/widgets.php:14
+msgid "Left Sidebar"
+msgstr "左サイドバー"
+
+#: inc/widgets.php:16
+msgid "the left sidebar"
+msgstr "左サイドバー"
+
+#: inc/widgets.php:23
+msgid "Left of footer"
+msgstr "フッターの左"
+
+#: inc/widgets.php:25
+msgid "the first column in the footer"
+msgstr "フッターの1列目"
+
+#: inc/widgets.php:32
+msgid "Center of footer"
+msgstr "フッターの中央"
+
+#: inc/widgets.php:34
+msgid "the second column in the footer"
+msgstr "フッターの2列目"
+
+#: inc/widgets.php:41
+msgid "Right of footer"
+msgstr "フッターの右側"
+
+#: inc/widgets.php:43
+msgid "the third column in the footer"
+msgstr "フッターの3列目"
+
+#: inc/widgets.php:51 templates/homepage.php:8
+msgid "Custom Homepage"
+msgstr "カスタムホームページ"
+
+#: inc/widgets.php:53
+msgid "Homepage"
+msgstr "ホームページ"
+
+#: inc/widgets.php:61
+msgid "On the pagination"
+msgstr "ページネーションの上"
+
+#: inc/widgets.php:63
+msgid "upper the pagination"
+msgstr "ページネーションの上"
+
+#: inc/widgets.php:73
+msgid "Over Header"
+msgstr "ヘッダーの上"
+
+#: inc/widgets.php:75
+msgid "over header"
+msgstr "ヘッダーの上"
+
+#: inc/widgets.php:105 inc/widgets.php:160
+msgid "header"
+msgstr "ヘッダー"
+
+#: inc/widgets.php:113
+msgid "Under Header"
+msgstr "ヘッダー下"
+
+#: inc/widgets.php:115
+msgid "under header"
+msgstr "ヘッダー下"
+
+#: inc/widgets.php:129
+msgid "Index List"
+msgstr "インデックスリスト"
+
+#: inc/widgets.php:131
+msgid "index list"
+msgstr "インデックスリスト"
+
+#: inc/widgets.php:131
+msgid "change the number of insert widget area."
+msgstr "挿入順の指定はこちら。"
+
+#: inc/widgets.php:139
+msgid "Fixed Right Sidebar for Laptop"
+msgstr "PC専用右サイドバー固定"
+
+#: inc/widgets.php:141
+msgid "right sidebar and fix in bottom"
+msgstr "固定して右サイドバーの下部"
+
+#: inc/widgets.php:148
+msgid "Fixed Left Sidebar for Laptop"
+msgstr "PC専用左サイドバー固定"
+
+#: inc/widgets.php:150
+msgid "left sidebar and fix in bottom"
+msgstr "固定して左サイドバーの下部"
+
+#: inc/widgets.php:158 searchform.php:16
+msgid "Search"
+msgstr "検索"
+
+#: inc/widgets.php:170
+msgid "Post widget"
+msgstr "投稿ウィジェット"
+
+#: inc/widgets.php:172
+msgid "the contents of the post"
+msgstr "投稿記事"
+
+#: inc/widgets.php:184
+msgid "Page widget"
+msgstr "固定ページウィジェット"
+
+#: inc/widgets.php:186
+msgid "the contents of the page"
+msgstr "固定ページ"
+
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "「 %s 」の検索結果"
+
+#: template-parts/index/content-none.php:15
+msgid "Ready to publish your first post?"
+msgstr "最初の投稿をする準備ができましたか ?"
+
+#: template-parts/index/content-none.php:17
+msgid "Get started here."
+msgstr "ここからスタートしてください。"
+
+#: template-parts/index/content-none.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"ご指定の検索条件に一致する投稿がありませんでした。他のキーワードでもう一度検"
+"索してみてください。"
+
+#: template-parts/index/content-none.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "お探しのコンテンツを見つけられませんでした。検索をお試しください。"
+
+#: template-parts/index/post_card.php:112
+msgid "Read More"
+msgstr "続きを読む"
+
+#: template-parts/post/author-profile.php:17
+msgid "About the author"
+msgstr "この記事の投稿者"
+
+#: template-parts/post/author-profile.php:19
+msgid "Latest posts"
+msgstr "最新記事"
+
+#: template-parts/post/post-page_link.php:39
+msgid "Next Page"
+msgstr "次のページへ"
+
+#: template-parts/post/post-page_link.php:52
+msgid "Pages:"
+msgstr "ページ:"
+
+#: template-parts/post/post-pagenation.php:17
+msgid "Previous Post"
+msgstr "前の記事"
+
+#: template-parts/post/post-pagenation.php:31
+msgid "Next Post"
+msgstr "次の記事"
+
+#: templates/fullwidth.php:9
+msgid "Full width"
+msgstr "全幅"
+
+#: templates/title_content.php:9
+msgid "Title and content only"
+msgstr "タイトルと本文のみ"
+
+#: templates/title_content_no_sidebar.php:9
+msgid "Title and content only without sidebar"
+msgstr "サイドバー無しのタイトルと本文のみ"
+
+#: templates/with_sidebar.php:9
+msgid "With sidebar"
+msgstr "サイドバー有り"
+
+#. Theme Name of the plugin/theme
+msgid "Simple Days"
+msgstr "Simple Days"
+
+#. Description of the plugin/theme
+msgid ""
+"Simple Days is a free responsive WordPress Blog theme.Visitors arrive by any "
+"devices.I designed it using a mobile-first approach.It is thus possible to "
+"improve usability of the smartphone.And of course, other devices is "
+"responsive.Moreover,you can also edit the design using its customizer.Google "
+"Fonts is 800 over.Right or Left or No sidebar.Gutenberg ready.Translation "
+"ready and currently translated in Japanese(日本語).Custom homepage can add "
+"widget.If you use plugin of YAHMAN Add-ons, you can Page views,Google "
+"Adsense,Analytics,Social,Profile,Table of contents,Related Posts,sitemap,SEO,"
+"JSON-LD structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,"
+"Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Child theme "
+"Simple Days Plus is available.Let's try it."
+msgstr ""
+"Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、様々な"
+"デバイスを使っています。モバイルファーストを第一にデザインしました。そのため"
+"スマートフォンのユーザビリティを向上させています。もちろん、他のデバイスも反"
+"応します。さらにカスタマイザーでデザインを変更可能です。Google フォントは800"
+"種類以上。右、左のサイドバーか無し。Gutenberg に対応。現在日本語の翻訳に対応"
+"しています。カスタムホームページでウィジェットを追加できます。プラグインの "
+"YAHMAN Add-ons を使用すると、ページビュー、Google アドセンス、アナリティク"
+"ス、SNS のリンク、プロフィール、目次、関連記事、サイトマップ、SEO、JSON-LDを"
+"使用した構造化データ、OGP、ブログカード、Twitter タイムライン、Facebook タイ"
+"ムライン、Accelerated Mobile Pages(AMP)、カルーセルスライダーを使用することが"
+"できます。子テーマ Simple Days Plus もあります。是非試してみてください。"
+
+#. Author of the plugin/theme
+msgid "YAHMAN"
+msgstr "やーまん"
+
+#. Author URI of the plugin/theme
+msgid "https://back2nature.jp/"
+msgstr "https://back2nature.jp/"
+
+#~ msgid "https://back2nature.jp/en/themes/simple-days"
+#~ msgstr "https://back2nature.jp/en/themes/simple-days"
+
+#~ msgid "to be single column when you type post id."
+#~ msgstr "1カラムにしたい記事の ID を入力。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translation ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage can add widget.If you use plugin of YAHMAN Add-ons, you "
+#~ "can Page views,Google Adsense,Analytics,Social,Profile,Table of contents,"
+#~ "Related Posts,notice,sitemap,SEO,JSON-LD structured data,Open Graph "
+#~ "protocol(OGP),Blog card,Twitter timeline,Facebook timeline,Accelerated "
+#~ "Mobile Pages(AMP),Carousel Slider.Child theme Simple Days Plus is "
+#~ "available.Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。モバイルファーストを第一にデザインしました。"
+#~ "そのためスマートフォンのユーザビリティを向上させています。もちろん、他のデ"
+#~ "バイスも反応します。さらにカスタマイザーでデザインを変更可能です。Google "
+#~ "フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。現在日"
+#~ "本語の翻訳に対応しています。カスタムホームページでウィジェットを追加できま"
+#~ "す。プラグインの YAHMAN Add-ons を使用すると、ページビュー、Google アドセ"
+#~ "ンス、アナリティクス、SNS のリンク、プロフィール、目次、関連記事、通知ボッ"
+#~ "クス、サイトマップ、SEO、JSON-LDを使用した構造化データ、OGP、ブログカー"
+#~ "ド、Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
+#~ "Pages(AMP)、カルーセルスライダーを使用することができます。子テーマ Simple "
+#~ "Days Plus もあります。是非試してみてください。"
+
+#~ msgid ""
+#~ "Google Adsense,Analytics,Pageviews,Social,Profile,Table of contents,"
+#~ "notice,sitemap,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP), etc."
+#~ msgstr ""
+#~ "Google アドセンス、アナリティクス、ページビュー、 SNS 、プロフィール、目"
+#~ "次、通知ボックス、サイトマップ、 OGP 、ブログカード、 Twitter タイムライ"
+#~ "ン、 Facebook タイムライン、 AMP 、等"
+
+#~ msgid "Clear color"
+#~ msgstr "色をクリア"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
+
+#~ msgid "Select default color"
+#~ msgstr "デフォルトの色を選択"
+
+#~ msgid "Select Color"
+#~ msgstr "色を選択"
+
+#~ msgid "Color value"
+#~ msgstr "色の値"
+
+#~ msgid "Multiple id must be seperated by a comma."
+#~ msgstr "複数ある場合は  ,  (コンマ)で区切ってください。"
+
+#~ msgid "Typical"
+#~ msgstr "典型的"
+
+#~ msgid "Enable"
+#~ msgstr "有効"
+
+#~ msgid "Selects skins randomly at access."
+#~ msgstr "アクセス時にスキンをランダムに選択"
+
+#~ msgid "Page title over the thumbnail."
+#~ msgstr "サムネイル上にタイトルを表示する。"
+
+#~ msgid "Full width thumbnail at under the header."
+#~ msgstr "ヘッダー下に全幅のサムネイルを表示する。"
+
+#~ msgid "Post title over the thumbnail."
+#~ msgstr "サムネイル上にタイトルを表示する。"
+
+#~ msgid "About the author(Author profile)"
+#~ msgstr "この記事の投稿者"
+
+#~ msgid "Delete Simple Days original widgets - Planned for future"
+#~ msgstr "今後の予定 - Simple Daysオリジナルウィジェットを削除"
+
+#~ msgid "Simple Days original widgets will delete on April 2020."
+#~ msgstr "Simple Daysのオリジナルウィジェットは2020年4月に削除予定です。"
+
+#~ msgid ""
+#~ "Same or better function widgets is ready in YAHMAN Add-ons of plugin."
+#~ msgstr ""
+#~ "プラグインのYAHMAN Add-onsには、同じまたはより優れた機能のウィジェットが用"
+#~ "意されています。"
+
+#~ msgid ""
+#~ "If you using Simple Days original widgets then please switching to YAHMAN "
+#~ "Add-ons widgets."
+#~ msgstr ""
+#~ "Simple Daysのオリジナルウィジェットを使用している場合は、YAHMAN Add-onsの"
+#~ "ウィジェットに切り替えてください。"
+
+#~ msgid "[Simple Days] Category grid for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用グリッド"
+
+#~ msgid "Display grid layout"
+#~ msgstr "グリッド表示"
+
+#~ msgid "Title:"
+#~ msgstr "タイトル:"
+
+#~ msgid "Category&#58;"
+#~ msgstr "カテゴリー&#58;"
+
+#~ msgid "All Categories"
+#~ msgstr "全カテゴリー"
+
+#~ msgid "Number of posts"
+#~ msgstr "表示する投稿数"
+
+#~ msgid "Columns"
+#~ msgstr "列"
+
+#~ msgid "two columns"
+#~ msgstr "2列"
+
+#~ msgid "three columns"
+#~ msgstr "3列"
+
+#~ msgid "four columns"
+#~ msgstr "4列"
+
+#~ msgid "Display date"
+#~ msgstr "日付の表示"
+
+#~ msgid "Original size of image"
+#~ msgstr "元の画像サイズ"
+
+#~ msgid "Display random"
+#~ msgstr "ランダム表示"
+
+#~ msgid "Ignore sticky posts"
+#~ msgstr "先頭固定表示の投稿を含めない"
+
+#~ msgid "include page"
+#~ msgstr "固定ページを含む"
+
+#~ msgid "link to main content"
+#~ msgstr "リンク先をメインコンテンツへ"
+
+#~ msgid "[Simple Days] One columns of categories for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用1列カテゴリー"
+
+#~ msgid "Display one columns of categories"
+#~ msgstr "カテゴリーを1列表示"
+
+#~ msgid "Original size of heading thumbnail"
+#~ msgstr "元の見出し画像サイズ"
+
+#~ msgid "[Simple Days] Thumbnail carousel for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用サムネイルのカルーセル"
+
+#~ msgid "Display thumbnail carousel"
+#~ msgstr "サムネイルのカルーセル表示"
+
+#~ msgid "Show thumbnail"
+#~ msgstr "サムネイルを表示"
+
+#~ msgid "[Simple Days] Two columns of categories for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用2列カテゴリー"
+
+#~ msgid "Display two columns of categories"
+#~ msgstr "カテゴリーを2列表示"
+
+#~ msgid "Left side"
+#~ msgstr "左側"
+
+#~ msgid "Right side"
+#~ msgstr "右側"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translation ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Page views,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD "
+#~ "structured data,Open Graph protocol(OGP),Blog card,Twitter timeline,"
+#~ "Facebook timeline,Accelerated Mobile Pages(AMP),Carousel Slider.Child "
+#~ "theme Simple Days Plus is available.Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。モバイルファーストを第一にデザインしました。"
+#~ "そのためスマートフォンのユーザビリティを向上させています。もちろん、他のデ"
+#~ "バイスも反応します。さらにカスタマイザーでデザインを変更可能です。Google "
+#~ "フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。現在日"
+#~ "本語の翻訳に対応しています。カスタムホームページは投稿のスライドショーを表"
+#~ "示することができます。プラグインの YAHMAN Add-ons を使用すると、ページ"
+#~ "ビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目"
+#~ "次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化デー"
+#~ "タ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) を使用することができます。子テーマ Simple "
+#~ "Days Plus もあります。是非試してみてください。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translation ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD "
+#~ "structured data,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP).Child theme Simple Days Plus is available."
+#~ "Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。モバイルファーストを第一にデザインしました。"
+#~ "そのためスマートフォンのユーザビリティを向上させています。もちろん、他のデ"
+#~ "バイスも反応します。さらにカスタマイザーでデザインを変更可能です。Google "
+#~ "フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。現在日"
+#~ "本語の翻訳に対応しています。カスタムホームページは投稿のスライドショーを表"
+#~ "示することができます。プラグインの YAHMAN Add-ons を使用すると、ページ"
+#~ "ビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目"
+#~ "次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化デー"
+#~ "タ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) を使用することができます。子テーマ Simple "
+#~ "Days Plus もあります。是非試してみてください。"
+
+#~ msgid "Simple Days provide a widgets for \"Custom Homepage\""
+#~ msgstr ""
+#~ "Simple Days は \"カスタムホームページ\" 用のウィジェットを提供しています"
+
+#~ msgid "Reorder Sections"
+#~ msgstr "セクションの並び替え"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translati,on ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD "
+#~ "structured data,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP).Child theme Simple Days Plus is available."
+#~ "Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。モバイルファーストを第一にデザインしました。"
+#~ "そのためスマートフォンのユーザビリティを向上させています。もちろん、他のデ"
+#~ "バイスも反応します。さらにカスタマイザーでデザインを変更可能です。Google "
+#~ "フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。現在日"
+#~ "本語の翻訳に対応しています。カスタムホームページは投稿のスライドショーを表"
+#~ "示することができます。プラグインの YAHMAN Add-ons を使用すると、ページ"
+#~ "ビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目"
+#~ "次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造化デー"
+#~ "タ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) を使用することができます。子テーマ Simple "
+#~ "Days Plus もあります。是非試してみてください。"
+
+#~ msgid "Top of children menu triangle"
+#~ msgstr "子メニューからの三角形"
+
+#~ msgid "To grandchild menu triangle"
+#~ msgstr "孫メニューへの三角形"
+
+#~ msgid "Display search button in header for mobile user"
+#~ msgstr "モバイルユーザーにはヘッダーに検索ボタンを表示する"
+
+#~ msgid "Sidebar Layout"
+#~ msgstr "サイドバーの位置"
+
+#~ msgid "No Sidebar"
+#~ msgstr "サイドバー無し"
+
+#~ msgid "the sidebar"
+#~ msgstr "サイドバー"
+
+#~ msgid "Fixed Sidebar for Laptop"
+#~ msgstr "PC専用サイドバー固定"
+
+#~ msgid "sidebar and fix in bottom"
+#~ msgstr "固定してサイドバーの下部"
+
+#~ msgid "Welcome! Thank you for choosing the Simple Days Theme."
+#~ msgstr "ようこそ ! テーマ Simple Days をお選び頂きありがとうございます。"
+
+#~ msgid "https://back2nature.jp/themes/simpledays"
+#~ msgstr "https://back2nature.jp/themes/simpledays"
+
+#~ msgid "Add widgets here to over header."
+#~ msgstr "ここにウィジェットを追加してヘッダーの上に表示します。"
+
+#~ msgid "Add widgets here to header."
+#~ msgstr "ここにウィジェットを追加してヘッダーに表示します。"
+
+#~ msgid "Add widgets here to under header."
+#~ msgstr "ここにウィジェットを追加してヘッダーの下に表示します。"
+
+#~ msgid "Add widgets here to index list insert."
+#~ msgstr "ここにウィジェットを追加してインデックスリストの中に表示します。"
+
+#~ msgid "Add widgets here to appear and fix in bottom of your sidebar."
+#~ msgstr "ここにウィジェットを追加してサイドバー下部に固定表示します。"
+
+#~ msgid "Content Bottom Right"
+#~ msgstr "フッター (右側)"
+
+#~ msgid "Add widgets here to appear in bottom footer(right side)"
+#~ msgstr "ここにウィジェットを追加してフッター (右側) に表示します。"
+
+#~ msgid "Add widgets here to appear on Homepage"
+#~ msgstr "ここにウィジェットを追加してホームページに表示します"
+
+#~ msgid "Add widgets here to appear on the pagination"
+#~ msgstr "ここにウィジェットを追加してページネーションの上に表示します。"
+
+#~ msgid "Add widgets under in the contents of the post"
+#~ msgstr "ここにウィジェットを追加して投稿記事の下に表示します。"
+
+#~ msgid "Add widgets under in the contents of the page"
+#~ msgstr "ここにウィジェットを追加して固定ページ記事の下に表示します。"
+
+#~ msgid "Content Bottom Center"
+#~ msgstr "フッター (中央)"
+
+#~ msgid "Add widgets here to appear in bottom footer(center)."
+#~ msgstr "ここにウィジェットを追加してフッター (中央) に表示します。"
+
+#~ msgid "Content Bottom Left"
+#~ msgstr "フッター (左側)"
+
+#~ msgid "Add widgets here to appear in bottom footer(left side).."
+#~ msgstr "ここにウィジェットを追加してフッター (左側) に表示します。"
+
+#~ msgid "Widgets in this area will be displayed in %s"
+#~ msgstr "このエリアのウィジェットは%sに表示されます"
+
+#~ msgid "the sidebar."
+#~ msgstr "サイドバー"
+
+#~ msgid "Add widgets here to appear %s"
+#~ msgstr "ここにウィジェットを追加して%s"
+
+#~ msgid "in your sidebar."
+#~ msgstr "サイドバーに表示します"
+
+#~ msgid "Add widgets here to appear in your sidebar."
+#~ msgstr "ここにウィジェットを追加してサイドバーに表示します。"
+
+#~ msgid "Before the first H2 of the post"
+#~ msgstr "投稿内1番目の H2前に"
+
+#~ msgid "Add widgets before the first h2 in the contents of the post"
+#~ msgstr "投稿内1番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the second H2 of the post"
+#~ msgstr "投稿内2番目の H2前に"
+
+#~ msgid "Add widgets before the second h2 in the contents of the post"
+#~ msgstr "投稿内2番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the third H2 of the post"
+#~ msgstr "投稿内3番目の H2前に"
+
+#~ msgid "Add widgets before the third h2 in the contents of the post"
+#~ msgstr "投稿内3番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the first H2 of the page"
+#~ msgstr "固定ページ内1番目の H2前に"
+
+#~ msgid "Add widgets before the first h2 in the contents of the page"
+#~ msgstr "固定ページ内1番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the second H2 of the page"
+#~ msgstr "固定ページ内2番目のH2前に"
+
+#~ msgid "Add widgets before the second h2 in the contents of the page"
+#~ msgstr "固定ページ内2番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Before the third H2 of the page"
+#~ msgstr "固定ページ内3番目の H2前に"
+
+#~ msgid "Add widgets before the third h2 in the contents of the page"
+#~ msgstr "固定ページ内3番目の H2見出し手前にウィジェットを追加します。"
+
+#~ msgid "Name"
+#~ msgstr "名前"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translati,on ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,Related Posts,notice,sitemap,SEO,JSON-LD "
+#~ "structured data,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。"
+#~ "現在日本語の翻訳に対応しています。カスタムホームページは投稿のスライド"
+#~ "ショーを表示することができます。プラグインの YAHMAN Add-ons を使用すると、"
+#~ "ページビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィー"
+#~ "ル、目次、関連記事、通知ボックス、サイトマップ、SEO、JSON-LDを使用した構造"
+#~ "化データ、OGP、ブログカード、Twitter タイムライン、Facebook タイムライン、"
+#~ "Accelerated Mobile Pages(AMP) を使用することができます。是非試してみてくだ"
+#~ "さい。"
+
+#~ msgid "Kaereba and Yomereba CSS"
+#~ msgstr "カエレバとヨメレバの CSS"
+
+#~ msgid "Under the post"
+#~ msgstr "投稿の下"
+
+#~ msgid "Under the post 2"
+#~ msgstr "投稿の下 2"
+
+#~ msgid "Under the post 3"
+#~ msgstr "投稿の下 3"
+
+#~ msgid "Under the post 4"
+#~ msgstr "投稿の下 4"
+
+#~ msgid "Under the post 5"
+#~ msgstr "投稿の下 5"
+
+#~ msgid "Under the page"
+#~ msgstr "固定ページの下"
+
+#~ msgid "Under the page 2"
+#~ msgstr "固定ページの下 2"
+
+#~ msgid "Under the page 3"
+#~ msgstr "固定ページの下 3"
+
+#~ msgid "Under the page 4"
+#~ msgstr "固定ページの下 4"
+
+#~ msgid "Under the page 5"
+#~ msgstr "固定ページの下 5"
+
+#~ msgid "h2"
+#~ msgstr "h2"
+
+#~ msgid "Heading"
+#~ msgstr "見出し"
+
+#~ msgid "h3"
+#~ msgstr "h3"
+
+#~ msgid "h4"
+#~ msgstr "h4"
+
+#~ msgid "h5"
+#~ msgstr "h5"
+
+#~ msgid "h6"
+#~ msgstr "h6"
+
+#~ msgid "Page break"
+#~ msgstr "改ページ"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translati,on ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,notice,sitemap,SEO,OGP,Blog card,Twitter "
+#~ "timeline,Facebook timeline,Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。"
+#~ "現在日本語の翻訳に対応しています。カスタムホームページは投稿のスライド"
+#~ "ショーを表示することができます。プラグインの YAHMAN Add-ons を使用すると、"
+#~ "ページビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィー"
+#~ "ル、目次、関連記事、通知ボックス、サイトマップ、SEO、OGP、ブログカード、"
+#~ "Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
+#~ "Pages(AMP) を使用することができます。是非試してみてください。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.Gutenberg "
+#~ "ready.Translati,on ready and currently translated in Japanese(日本語)."
+#~ "Custom homepage is able to show slideshow of your post.If you use plugin "
+#~ "of YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,"
+#~ "Profile,Table of contents,notice,sitemap,SEOOGP,Blog card,Twitter "
+#~ "timeline,Facebook timeline,Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Gutenberg に対応。"
+#~ "現在日本語の翻訳に対応しています。カスタムホームページは投稿のスライド"
+#~ "ショーを表示することができます。プラグインの YAHMAN Add-ons を使用すると、"
+#~ "ページビュー、Google アドセンス、アナリティクス、SNS のリンク、プロフィー"
+#~ "ル、目次、関連記事、通知ボックス、サイトマップ、OGP、ブログカード、"
+#~ "Twitter タイムライン、Facebook タイムライン、Accelerated Mobile "
+#~ "Pages(AMP) を使用することができます。是非試してみてください。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.optimized "
+#~ "for SEO, utilizing Schema.org microdata.And Gutenberg ready.Translation "
+#~ "ready and currently translated in Japanese(日本語).Custom homepage is "
+#~ "able to show slideshow of your post.If you use plugin of YAHMAN Add-ons, "
+#~ "you can Pageviews,Google Adsense,Analytics,Social,Profile,Table of "
+#~ "contents,Related Posts,notice,sitemap,OGP,Blog card,Twitter timeline,"
+#~ "Facebook timeline,Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Schema.org マイク"
+#~ "ロデータを利用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に"
+#~ "対応しています。カスタムホームページは投稿のスライドショーを表示することが"
+#~ "できます。プラグインの YAHMAN Add-ons を使用すると、ページビュー、Google "
+#~ "アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、関連記事、通"
+#~ "知ボックス、サイトマップ、OGP、ブログカード、Twitter タイムライン、"
+#~ "Facebook タイムライン、Accelerated Mobile Pages(AMP) を使用することができ"
+#~ "ます。是非試してみてください。"
+
+#~ msgid "No title"
+#~ msgstr "タイトルがありません"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.optimized "
+#~ "for SEO, utilizing Schema.org microdata.And Gutenberg ready.Translation "
+#~ "ready and currently translated in Japanese(日本語).Custom homepage is "
+#~ "able to show slideshow of your post.If you use plugin of YAHMAN Add-ons, "
+#~ "you can Pageviews,Google Adsense,Analytics,Social,Profile,Table of "
+#~ "contents,notice,sitemap,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Schema.org マイク"
+#~ "ロデータを利用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に"
+#~ "対応しています。カスタムホームページは投稿のスライドショーを表示することが"
+#~ "できます。プラグインの YAHMAN Add-ons を使用すると、ページビュー、Google "
+#~ "アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、通知ボック"
+#~ "ス、サイトマップ、OGP、ブログカード、Twitter タイムライン、Facebook タイム"
+#~ "ライン、Accelerated Mobile Pages(AMP) を使用することができます。是非試して"
+#~ "みてください。"
+
+#~ msgctxt "post_sortable"
+#~ msgid "Widget 2"
+#~ msgstr "ウィジェット 2"
+
+#~ msgid "Related Posts"
+#~ msgstr "関連記事"
+
+#~ msgid "Related Pages"
+#~ msgstr "関連ページ"
+
+#~ msgid "The plugin [Pages with category and tag] is needed"
+#~ msgstr "プラグイン [Pages with category and tag] が必要です。"
+
+#~ msgid "Related Pages view count."
+#~ msgstr "関連ページの表示数"
+
+#~ msgid "min1 max18"
+#~ msgstr "1から18まで"
+
+#~ msgid "Related Posts display style"
+#~ msgstr "関連記事の表示方法"
+
+#~ msgid "List"
+#~ msgstr "リスト"
+
+#~ msgid "List with thumbnail"
+#~ msgstr "サムネイル付きリスト"
+
+#~ msgid "Title over a thumbnail"
+#~ msgstr "サムネイル上にタイトルを表示する"
+
+#~ msgid "Title under a thumbnail"
+#~ msgstr "サムネイルの下にタイトルを表示する"
+
+#~ msgid "Related Posts view count."
+#~ msgstr "関連記事の表示数"
+
+#~ msgid "use CDN FontAwesome 4"
+#~ msgstr "CDN 版 FontAwesome 4を使用する"
+
+#~ msgid ""
+#~ "Simple Days's careful selection of FontAwesome icons to make it smoothly."
+#~ msgstr ""
+#~ "Simple Days は動作を軽くするために FontAwesome のアイコンを厳選してます。"
+
+#~ msgid "Therefore, you can not use full icons."
+#~ msgstr "そのためすべてのアイコンを使う事が出来ません。"
+
+#~ msgid "If you use CDN FontAwesome, you can use full icons."
+#~ msgstr "CDN 版 FontAwesome を使えばすべてのアイコンが使用可能です。"
+
+#~ msgid "but to be slowly."
+#~ msgstr "そのかわり動作が重くなるでしょう。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.optimized "
+#~ "for SEO, utilizing Schema.org microdata.And Gutenberg ready.Translation "
+#~ "ready and currently translated in Japanese(日本語).See a slideshow of "
+#~ "your post on custom homepage.If you use plugin of YAHMAN Add-ons, you can "
+#~ "Pageviews,Google Adsense,Analytics,Social,Profile,Table of contents,"
+#~ "notice,sitemap,OGP,Blog card,Twitter timeline,Facebook timeline,"
+#~ "Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Schema.org マイク"
+#~ "ロデータを利用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に"
+#~ "対応しています。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
+#~ "Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、通知"
+#~ "ボックス、サイトマップ、OGP、ブログカード、Twitter タイムライン、Facebook "
+#~ "タイムライン、Accelerated Mobile Pages(AMP) を使用することができます。是非"
+#~ "試してみてください。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.optimized "
+#~ "for SEO, utilizing Schema.org microdata.And Gutenberg ready.Translation "
+#~ "ready and currently translated in Japanese(日本語).If you use plugin of "
+#~ "YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,Profile,"
+#~ "Table of contents,notice,sitemap,OGP,Blog card,Twitter timeline,Facebook "
+#~ "timeline,Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Schema.org マイク"
+#~ "ロデータを利用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に"
+#~ "対応しています。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
+#~ "Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、通知"
+#~ "ボックス、サイトマップ、OGP、ブログカード、Twitter タイムライン、Facebook "
+#~ "タイムライン、Accelerated Mobile Pages(AMP) を使用することができます。是非"
+#~ "試してみてください。"
+
+#~ msgid "Post a comment"
+#~ msgstr "コメントを投稿する"
+
+#~ msgid "Header Menu background color"
+#~ msgstr "ヘッダーメニュー背景色"
+
+#~ msgid "TOC font color"
+#~ msgstr "文字の色"
+
+#~ msgid "TOC link color"
+#~ msgstr "リンクの色 :"
+
+#~ msgid "TOC link hover color"
+#~ msgstr "リンクにホバーした時"
+
+#~ msgid ""
+#~ "Google Adsense,Analytics,Pageviews,Social,Profile,Table of contents,"
+#~ "notice,sitemap,OGP,Blog card,AMP, etc."
+#~ msgstr ""
+#~ "Google アドセンス、アナリティクス、ページビュー、 SNS 、プロフィール、目"
+#~ "次、通知ボックス、サイトマップ、 OGP 、ブログカード、 AMP 、等"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "any devices.I designed it using a mobile-first approach.It is thus "
+#~ "possible to improve usability of the smartphone.And of course, other "
+#~ "devices is responsive.Moreover,you can also edit the design using its "
+#~ "customizer.Google Fonts is 800 over.Right or Left or No sidebar.optimized "
+#~ "for SEO, utilizing Schema.org microdata.And Gutenberg ready.Translation "
+#~ "ready and currently translated in Japanese(日本語).If you use plugin of "
+#~ "YAHMAN Add-ons, you can Pageviews,Google Adsense,Analytics,Social,Profile,"
+#~ "Table of contents,notice,sitemap,OGP,Blog card,Accelerated Mobile "
+#~ "Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、"
+#~ "様々なデバイスを使っています。私はモバイルファーストを第一にデザインしまし"
+#~ "た。そのためスマートフォンのユーザビリティを向上させています。もちろん、他"
+#~ "のデバイスも反応します。さらにカスタマイザーでデザインを変更可能です。"
+#~ "Google フォントは800種類以上。右、左のサイドバーか無し。Schema.org マイク"
+#~ "ロデータを利用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に"
+#~ "対応しています。プラグインの YAHMAN Add-ons を使用すると、ページビュー、"
+#~ "Google アドセンス、アナリティクス、SNS のリンク、プロフィール、目次、通知"
+#~ "ボックス、サイトマップ、OGP、ブログカード、Accelerated Mobile Pages(AMP) "
+#~ "を使用することができます。是非試してみてください。"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "smartphone, tablet, laptop, or desktop computer.I designed it using a "
+#~ "mobile-first approach.It is thus possible to improve usability of the "
+#~ "smartphone.And of course, other devices is too.Moreover,you can also edit "
+#~ "the design using its customizer.Google Fonts is 800 over.Right or Left or "
+#~ "No sidebar.optimized for SEO, utilizing Schema.org microdata.And "
+#~ "Gutenberg ready.Translation ready and currently translated in Japanese(日"
+#~ "本語).If you use plugin of YAHMAN Add-ons, you can Pageviews,Google "
+#~ "Adsense,Analytics,Social,Profile,Table of contents,notice,sitemap,OGP,"
+#~ "Blog card,Accelerated Mobile Pages(AMP).Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、ス"
+#~ "マートフォン、タブレット、ラップトップ、またはデスクトップコンピュータを"
+#~ "使っています。私はモバイルファーストを第一にデザインしました。そのためス"
+#~ "マートフォンのユーザビリティを向上させています。もちろん、他のデバイスも。"
+#~ "さらにカスタマイザーでデザインを変更可能です。Google フォントは800種類以"
+#~ "上。右、左のサイドバーか無し。Schema.org マイクロデータを利用して SEO に最"
+#~ "適化済み。Gutenberg に対応。現在日本語の翻訳に対応しています。プラグイン"
+#~ "の YAHMAN Add-ons を使用すると、ページビュー、Google アドセンス、アナリ"
+#~ "ティクス、SNS のリンク、プロフィール、目次、通知ボックス、サイトマップ、"
+#~ "OGP、ブログカード、Accelerated Mobile Pages(AMP) を使用することができま"
+#~ "す。是非試してみてください。"
+
+#~ msgid "Footer color"
+#~ msgstr "フッターの色"
+
+#~ msgid ""
+#~ "Simple Days is a free responsive WordPress Blog theme.Visitors arrive by "
+#~ "smartphone, tablet, laptop, or desktop computer.I designed it using a "
+#~ "mobile-first approach.It is thus possible to improve usability of the "
+#~ "smartphone.And of course, other devices is too.Moreover,you can also edit "
+#~ "the design using its customizer.Google Fonts is 800 over.Right or Left or "
+#~ "No sidebar.optimized for SEO, utilizing Schema.org microdata.And "
+#~ "Gutenberg ready.Translation ready and currently translated in Japanese(日"
+#~ "本語).If you use plugin of YAHMAN Add-ons, you can Pageviews,Google "
+#~ "Adsense,Analytics,Social,Profile,Table of contents,notice,sitemap,OGP,"
+#~ "Blog card,AMP.Let's try it."
+#~ msgstr ""
+#~ "Simple Days は無料のレスポンシブ WordPress ブログテーマです。訪問者は、ス"
+#~ "マートフォン、タブレット、ラップトップ、またはデスクトップコンピュータを"
+#~ "使っています。私はモバイルファーストを第一にデザインしました。そのためス"
+#~ "マートフォンのユーザビリティを向上させています。もちろん、他のデバイスも。"
+#~ "さらにカスタマイザーでデザインを変更可能です。Google フォントは800種類以"
+#~ "上。右、左のサイドバーか無し。SNS のリンク。Schema.org マイクロデータを利"
+#~ "用して SEO に最適化済み。Gutenberg に対応。現在日本語の翻訳に対応していま"
+#~ "す。プラグインの YAHMAN アドオンを使用すると、ページビュー、Google  アドセ"
+#~ "ンス、アナリティクス、ソーシャル、プロフィール、目次、通知ボックス、サイト"
+#~ "マップ、OGP、ブログカード、AMP を使用することができます。是非試してみてく"
+#~ "ださい。"
+
+#~ msgid " ( Page %s )"
+#~ msgstr " ( %s ページ目 )"
+
+#~ msgid "Description"
+#~ msgstr "サイト説明"
+
+#~ msgid " Multiple id must be seperated by a comma."
+#~ msgstr "複数ある場合は  ,  (コンマ ) で区切ってください。"
+
+#~ msgid ""
+#~ "Select page with assigned a Template \"Custom Homepage\" from \"Homepage:"
+#~ "\""
+#~ msgstr ""
+#~ "「ホームページ:」からテンプレート「カスタムホームページ」を適用させた固定"
+#~ "ページを選択します。"
+
+#~ msgid ""
+#~ "Select to Template-\"Custom Homepage\" that you created page from "
+#~ "\"Homepage:\"."
+#~ msgstr ""
+#~ "「ホームページ:」から作成したテンプレート「カスタムホームページ」を選択し"
+#~ "ます。"
+
+#~ msgid "[Simple Days] Multi columns of categories for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用複数列カテゴリー"
+
+#~ msgid "Display columns layout."
+#~ msgstr "カラム表示"
+
+#~ msgid "[Simple Days] Columns style for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用カラムスタイル"
+
+#~ msgid "[Simple Days] One category style for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用1列スタイル"
+
+#~ msgid "Display one category."
+#~ msgstr "カテゴリーを1列表示"
+
+#~ msgid "[Simple Days] Slider style for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用スライダースタイル"
+
+#~ msgid "Display slider."
+#~ msgstr "スライダーを表示"
+
+#~ msgid "[Simple Days] Two categories style for Custom Homepage"
+#~ msgstr "[Simple Days] カスタムホームページ用2列スタイル"
+
+#~ msgid "Display two categories."
+#~ msgstr "カテゴリーを2列表示"
+
+#~ msgid "List with Thumbnail"
+#~ msgstr "サムネイル付きリスト"
+
+#~ msgid "Heading "
+#~ msgstr "見出し"

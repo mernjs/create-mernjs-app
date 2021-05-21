@@ -1,0 +1,4 @@
+.read_more_box { text-align: right; margin: 10px 0; }
+
+.more_read { border: 1px solid #eee; padding: 5px 10px; border-radius: 3px; }
+.more_read:hover { background: #222; color: #fff; border-color: #222; }

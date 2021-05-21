@@ -1,0 +1,13 @@
+/*
+RTL CSS */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption,
+th,
+td {
+	text-align: right;
+}

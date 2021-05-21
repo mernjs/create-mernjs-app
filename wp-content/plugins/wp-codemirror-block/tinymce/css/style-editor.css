@@ -1,0 +1,119 @@
+
+body#tinymce.wp-editor.content .code-block {
+  position: relative;
+  overflow: hidden;
+}
+body#tinymce.wp-editor.content .code-block::before {
+  content: "CodeMirror Block Classic";
+  color: #000;
+  background-color: rgba(200, 200, 200, .9);
+  cursor: pointer;
+  display: block;
+  font-size: 10px;
+  padding: 9px .75rem;
+}
+body#tinymce.wp-editor.content .code-block::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url('../js/code-block-setting.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 5px;
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  opacity: .5;
+}
+
+body#tinymce.wp-editor.content .code-block > pre {
+  background-color: #eee;
+  padding: .5rem;
+  margin-top: 0;
+  position: relative;
+  border-left: 3px solid #eee;
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 1.5;
+  overflow: auto;
+}
+body#tinymce.wp-editor.content .code-block > pre:hover {
+  border-left: 3px solid #d2d2d2;
+}
+.wpcm-toolbar {
+  position: absolute;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.wpcm-toolbar > .wpcm-toolbar-container {
+  position: relative;
+  display: flex;
+  padding: 7px 0;
+  border-top-left-radius: 24px;
+  border-bottom-left-radius: 24px;
+  overflow: hidden;
+  background-color: rgba(200, 200, 200, 1);
+}
+
+.wpcm-toolbar > .wpcm-toolbar-container > span {
+  transition: all .3s ease;
+}
+.wpcm-toolbar > .wpcm-toolbar-container > span.wpcm-edit-icon {
+  width: 20px;
+  height: 20px;
+  background-image: url('../js/code-block-setting.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.wpcm-toolbar > .wpcm-toolbar-container > span.info {
+  line-height: 20px;
+  font-size: 12px;
+  /* border: 1px solid; */
+  margin: 0 3px;
+  border-radius: 10px;
+  padding: 0 6px;
+  background: #fefefe;
+  color: #818182;
+  box-shadow: 3px 2px 3px 0 rgba(0,0,0,0.33);
+  -webkit-animation-duration: .3s;
+  animation-duration: .3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}
+.wpcm-toolbar > .wpcm-toolbar-container > span.info::after {
+  content: attr(title);
+  font-weight: 700;
+}
+.wpcm-toolbar > .wpcm-toolbar-container > span.error {
+  background-color: #ffcccc;
+  color: #000;
+  font-weight: 500;
+  font-size: 14px;
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* At the top level of your code */
+@media screen and (max-width: 768px) {
+  .wpcm-toolbar > .wpcm-toolbar-container > .info {
+    display: none;
+  }
+}

@@ -1,0 +1,63 @@
+/*
+
+    Name:       react
+    Author:     Vicky Agravat (http://github.com/mkaminsky11)
+
+    Based on  https://reactjs.org/docs/ React theme color scheme.
+
+*/
+
+.cm-s-react.CodeMirror {
+  background-color: rgb(40, 44, 52);
+  /* color: rgba(233, 237, 237, 1); */
+  color: rgb(136, 198, 190);
+  tab-size: 1.5em;
+  border-radius: 10px;
+  /* font-size: 1.1em; */
+}
+.cm-s-react .CodeMirror-gutters {
+  background: #263238;
+  color: rgb(83,127,126);
+  border: none;
+}
+.cm-s-react .CodeMirror-guttermarker, .cm-s-react .CodeMirror-guttermarker-subtle, .cm-s-react .CodeMirror-linenumber { color: rgb(83,127,126); }
+.cm-s-react .CodeMirror-cursor { border-left: 1px solid #f8f8f0; }
+.cm-s-react div.CodeMirror-selected { background: rgba(255, 255, 255, 0.15); }
+.cm-s-react.CodeMirror-focused div.CodeMirror-selected { background: rgba(255, 255, 255, 0.10); }
+.cm-s-react .CodeMirror-line::selection, .cm-s-react .CodeMirror-line > span::selection, .cm-s-react .CodeMirror-line > span > span::selection { background: rgba(255, 255, 255, 0.10); }
+.cm-s-react .CodeMirror-line::-moz-selection, .cm-s-react .CodeMirror-line > span::-moz-selection, .cm-s-react .CodeMirror-line > span > span::-moz-selection { background: rgba(255, 255, 255, 0.10); }
+
+.cm-s-react .CodeMirror-activeline-background { background: rgba(53, 59, 69, 1); }
+.cm-s-react .cm-keyword { color: rgba(197, 165, 197, 1); }
+.cm-s-react .cm-operator { color: rgba(233, 237, 237, 1); }
+.cm-s-react .cm-variable-2 { color: #80CBC4; }
+.cm-s-react .cm-variable-3, .cm-s-react .cm-type { color: #82B1FF; }
+.cm-s-react .cm-builtin { color: #DECB6B; }
+.cm-s-react .cm-atom { color: #F77669; }
+.cm-s-react .cm-number { color: #F77669; }
+.cm-s-react .cm-def { color: rgb(250, 200, 99); }
+.cm-s-react .cm-string { color: rgb(141, 200, 145) }
+.cm-s-react .cm-string-2 { color: #80CBC4; }
+.cm-s-react .cm-comment {
+  color: rgb(178, 178, 178);
+  /* background-color: rgb(53, 59, 69); */
+  /* display: block;
+  line-height: 1; */
+ }
+.cm-s-react .cm-variable { color: #82B1FF; }
+/* .cm-s-react .cm-tag { color: #80CBC4; } */
+.cm-s-react .cm-meta { color: #80CBC4; }
+.cm-s-react .cm-attribute { color: rgb(197, 165, 197) }
+.cm-s-react .cm-property { color: rgb(121, 182, 242); }
+.cm-s-react .cm-qualifier { color: #DECB6B; }
+.cm-s-react .cm-variable-3, .cm-s-react .cm-type { color: #DECB6B; }
+.cm-s-react .cm-tag { color: rgb(252, 146, 158); }
+.cm-s-react .cm-bracket { color: rgb(136, 198, 190); }
+.cm-s-react .cm-error {
+  color: rgba(255, 255, 255, 1.0);
+  background-color: #EC5F67;
+}
+.cm-s-react .CodeMirror-matchingbracket {
+  text-decoration: underline;
+  color: white !important;
+}
