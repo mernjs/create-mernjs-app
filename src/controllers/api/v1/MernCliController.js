@@ -1,5 +1,4 @@
 const InitCommand   = require('../../../models/InitCommand')
-const iplocation    = require("iplocation").default;
 const _             = require('lodash')
 const pckJson   = require('../../../../package.json')
 
@@ -9,8 +8,6 @@ const capitalize = (s) => {
 }
 
 class MernCliController {
-    
-    
 
     init(req, res){
         try{
