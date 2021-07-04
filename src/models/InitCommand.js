@@ -14,6 +14,9 @@ const ProjectCommands = new mongoose.Schema({
     project_type: {
       type: String,
     },
+    template_type: {
+      type: String,
+    },
   	ip_address: {
     	type: String
   	},
