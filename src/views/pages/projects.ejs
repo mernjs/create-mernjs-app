@@ -178,9 +178,10 @@
                       <table class="table card-table table-responsive table-responsive-large" style="width:100%">
                         <thead>
                           <tr>
-                            <th class="d-none d-md-table-cell">SN</th>
+                            <th>SN</th>
                             <th>Project Name</th>
                             <th class="d-none d-md-table-cell">Project Type</th>
+			    <th class="d-none d-md-table-cell">Template Type</th>
                             <th class="d-none d-md-table-cell">MernJs Version</th>
                             <th class="d-none d-md-table-cell">Email</th>
                             <th>Date</th>
@@ -189,14 +190,15 @@
                         <tbody>
                           <% data.forEach(function(item, index){ %>
                           <tr>
-                            <td class="d-none d-md-table-cell"><%= index+1 %></td>
+                            <td><%= index+1 %></td>
                             <td>
                               <a class="text-dark" href="project-details?project_id=<%= item._id %>"> <%= item.project_name %></a>
                             </td>
                             <td width="250px" class="d-none d-md-table-cell"><%= item.project_type %></td>
+			    <td class="d-none d-md-table-cell"><%= item.template_type %></td>
                             <td class="d-none d-md-table-cell"><%= item.cli_version %></td>
                             <td class="d-none d-md-table-cell"><%= item.email %></td>
-                            <td class="d-none d-md-table-cell"><%= moment(item.created_at).format('DD-MM-YYYY') %></td>
+                            <td><%= moment(item.created_at).format('DD-MM-YYYY') %></td>
                           </tr>
                           <% }) %>
 
